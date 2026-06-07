@@ -12,6 +12,9 @@ if platform.system() == "Darwin":
     if os.path.exists(_tess):
         os.environ.setdefault("TESSERACT_CMD", _tess)
 
+# Import tkinter BEFORE pygame to prevent SDL/tkinter NSInvalidArgumentException on macOS
+import tkinter  # noqa: F401 — side-effect import, must precede pygame
+
 from window_manager import get_poker_window
 from macos_permissions import ensure_macos_permissions, request_open_privacy_panels
 

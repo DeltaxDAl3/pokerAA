@@ -1,7 +1,13 @@
+import os
 import time
-from colorama import Fore 
-import pygame 
+from colorama import Fore
 import json
+
+# Prevent SDL from initialising a video display — this project only needs audio.
+# Must be set before pygame is imported/used.
+os.environ.setdefault("SDL_VIDEODRIVER", "dummy")
+os.environ.setdefault("SDL_AUDIODRIVER", "coreaudio")
+import pygame
 
 class PokerAssistant:
 
@@ -10,7 +16,11 @@ class PokerAssistant:
 
         print("Initializing PokerAssistant...")
 
-        pygame.init()  # Initialize the pygame module for audio playback
+        # Only initialise the mixer (audio), never the video subsystem.
+        # This avoids the SDL/tkinter NSInvalidArgumentException crash on macOS.
+        if not pygame.mixer.get_init():
+            pygame.mixer.pre_init(44100, -16, 2, 512)
+            pygame.mixer.init()
 
 
         self.client             = openai_client 
