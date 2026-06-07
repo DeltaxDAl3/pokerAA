@@ -14,58 +14,83 @@ It has built-in GUI to visualize poker data + voice support to playback actions 
 - Simulates mouse clicks within the Pokerstars client for automated gameplay.
 
 ## Prerequisites
+- Python **3.10+** (uses `match/case` syntax; 3.11 recommended)
+- OpenAI API key (GPT-4 access required)
+- PokerStars client with a No Limit Hold'em 6-player Cash table open
+- macOS (Apple Silicon tested) or Windows 11
 
-- Python 3.11 or higher (Python 3.10+ required because the code uses `match/case` syntax)
-- Access to OpenAI API
-- Tesseract OCR for text recognition
-- PokerStars client
+## macOS Setup (Apple Silicon — tested and verified)
+### 1. Install Miniforge (Python 3.11 environment manager)
+```bash
+curl -fsSL https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh | bash
+```
+### 2. Create the project environment
+```bash
+~/miniforge3/bin/conda create -y -n pokergpt311 python=3.11 pip
+~/miniforge3/bin/conda install -y -n pokergpt311 -c conda-forge tesseract opencv
+```
+### 3. Install Python dependencies
+```bash
+~/miniforge3/envs/pokergpt311/bin/python -m pip install \
+  openai pygetwindow colorama pyobjc pyautogui pygame \
+  mss opencv-python-headless numpy pytesseract pillow
+```
+> Note: use `opencv-python-headless` (not `opencv-python`) to avoid SDL conflicts with pygame.
+### 4. Configure your API key
+```bash
+echo "OPENAI_API_KEY=sk-your-real-key-here" > pokergpt.env
+```
+Get your key at https://platform.openai.com/api-keys
+### 5. Grant macOS permissions
+The bot needs **Accessibility** (for mouse clicks) and **Screen Recording** (for pixel capture).
+Run once to open the panels automatically:
+```bash
+open "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility"
+open "x-apple.systempreferences:com.apple.preference.security?Privacy_ScreenCapture"
+```
+Add your **Terminal / iTerm2** and **Python** to both lists and enable them.
+Restart your terminal after granting permissions.
+### 6. PokerStars visual setup
+- Disable all animations in the table settings
+- The bot works best at table size ~960×690 (auto-detected via Quartz on macOS)
 
-## Installation
-
-1. Clone the repository to your local machine.
-2. Create and activate a Python 3.11 virtual environment.
-3. Install dependencies:
-   - `pip install openai pygetwindow colorama pyobjc pyautogui pygame keyboard mss opencv-python-headless numpy pytesseract pillow`
-4. Create/update `pokergpt.env` with your key:
-   - `OPENAI_API_KEY=your_api_key_here`
-5. Install Tesseract OCR (or provide the executable path via `TESSERACT_CMD`).
-   - The app resolves Tesseract in this order: `TESSERACT_CMD` env var, system `PATH`, then bundled `tesseract/` candidates.
-
-## PokerStars client (Visual) setup:
-1. Since this bot reads all of the data from the poker client window, you will need to setup the visuals excactly like in this image:
-2. Disable all animations for Pokerstars client in the table settings.
 ![PokerTable2](https://github.com/HarperJonesGPT/PokerGPT/assets/154810617/ba0a7bc5-d2d1-4237-bfd8-015ca2ca14e9)
 
-
 ## Usage
+1. Open PokerStars and join a No Limit Hold'em 6-player Cash table
+2. From the project directory, run:
+```bash
+cd /path/to/PokerGPT
+set -a && source pokergpt.env && set +a
+~/miniforge3/envs/pokergpt311/bin/python main.py
+```
+3. Enter your player number (1–6, starting from the bottom seat, clockwise)
+4. The bot detects the table, reads the game state, and plays automatically
 
-To start the PokerGPT, follow these steps:
+## Windows Setup
+1. Install Python 3.11 from https://python.org
+2. `pip install -r requirements.txt`
+3. Tesseract is bundled in `tesseract/` — no separate install needed
+4. Set `OPENAI_API_KEY` in `pokergpt.env` and run `python main.py`
 
-1. Open Pokerstars client and ensure it's visible on the screen.
-2. Load environment variables and run:
-   - `set -a; source pokergpt.env; set +a`
-   - `python main.py`
-3. Enter your own player number (player numbers start from the bottom of the table and goes clockwise 1(bottom), 2(bottom-left), 3(top-eft), 4(top), 5(top-right), 6(bottom-right))
-4. The bot will automatically locate the poker window and start playing based on the GPT-4 strategy analysis.
-
-
-## Structure
-
-- `audio_player.py`: Handles audio feedback from the bot.
-- `game_state.py`: Manages the current state of the game.
-- `gui.py`: Provides a graphical user interface for monitoring the bot's actions.
-- `hero_action.py`: Contains logic for determining the hero's actions.
-- `hero_hand_range.py`: Assesses hand ranges for the hero.
-- `hero_info.py`: Collects information about the hero's current state.
-- `main.py`: Entry point for running the bot.
-- `poker_assistant.py`: Interfaces with OpenAI's API to analyze the game state and decide on actions.
-- `read_poker_table.py`: Uses OCR and pixel detection to read the table state.
+## Project structure
+- `main.py` — entry point; permissions check, window detection, orchestration
+- `window_manager.py` — cross-platform window detection (Quartz on macOS)
+- `read_poker_table.py` — pixel capture, OCR, card/dealer/stack detection threads
+- `poker_assistant.py` — GPT-4 game analysis and action decision
+- `game_state.py` — game state model (cards, pot, players, betting history)
+- `hero_action.py` — mouse automation (click, drag, type bet amounts)
+- `gui.py` — real-time Tkinter dashboard
+- `audio_player.py` — audio playback via pygame mixer + OpenAI TTS
+- `hero_info.py` — hero statistics (VPIP, PFR, 3-bet, aggression)
+- `hero_hand_range.py` — pre-flop hand range filter
+- `macos_permissions.py` — macOS Accessibility/Screen Recording checker
 
 ## Limitations
-- Dependant on the Pokerstars client window size (PokerGPT automatically resizes to small window)
-- Might not work on all screen resolutions (tested on '1920 x 1080' pixel screen resolution, Windows 11)
-- Works only in Pokerstars 6-Player table.
-- Image reading(OCR) speed is dependant on your CPU.
+- Requires PokerStars 6-player No Limit Hold'em Cash table
+- OCR accuracy depends on table visual settings (disable animations)
+- On macOS the table window cannot be auto-resized; resize manually to ~960×690
+- Image reading speed depends on CPU performance
 
 ## Contributing
 
