@@ -60,11 +60,14 @@ class GameState:
 
     def extract_blinds_from_title(self):
         title_contains = "No Limit" 
-        windows = gw.getWindowsWithTitle(title_contains)
+        if hasattr(gw, "getWindowsWithTitle"):
+            titles = [window.title for window in gw.getWindowsWithTitle(title_contains)]
+        else:
+            titles = [title for title in gw.getAllTitles() if title_contains in title]
 
-        for window in windows:
+        for title in titles:
             # Find all monetary amounts (assuming they follow a '$' symbol)
-            amounts = re.findall(r'\$(\d+\.?\d*)', window.title)
+            amounts = re.findall(r'\$(\d+\.?\d*)', title)
             if amounts and len(amounts) >= 2:
                 # Assuming the first amount is the small blind and the second is the big blind
                 self.small_blind = float(amounts[0])

@@ -1,7 +1,13 @@
 from colorama import Fore
-import keyboard
+class _KeyboardFallback:
+    @staticmethod
+    def unhook_all():
+        return None
+keyboard = _KeyboardFallback()
 import mss
 import re
+import os
+import shutil
 import cv2
 import numpy as np
 import pyautogui
@@ -36,7 +42,7 @@ class ReadPokerTable:
 
         self.save_screenshots       = False
 
-        self.tesseract_cmd          = r'C:\Users\Admin\Desktop\PokerGPT\tesseract\tesseract.exe'
+        self.tesseract_cmd          = self.resolve_tesseract_cmd()
 
         self.cards_on_table         = False
 
@@ -95,7 +101,32 @@ class ReadPokerTable:
 
         self.threads = []
 
-        pytesseract.pytesseract.tesseract_cmd = self.tesseract_cmd
+        if self.tesseract_cmd:
+            pytesseract.pytesseract.tesseract_cmd = self.tesseract_cmd
+        else:
+            print("Tesseract executable not found. OCR features will require setting TESSERACT_CMD or installing tesseract.")
+
+    def resolve_tesseract_cmd(self):
+        env_tesseract = os.getenv("TESSERACT_CMD")
+        if env_tesseract and os.path.exists(env_tesseract):
+            return env_tesseract
+
+        system_tesseract = shutil.which("tesseract")
+        if system_tesseract:
+            return system_tesseract
+
+        project_root = os.path.dirname(os.path.abspath(__file__))
+        bundled_candidates = [
+            os.path.join(project_root, "tesseract", "tesseract"),
+            os.path.join(project_root, "tesseract", "bin", "tesseract"),
+            os.path.join(project_root, "tesseract", "tesseract.exe"),
+        ]
+
+        for candidate in bundled_candidates:
+            if os.path.exists(candidate):
+                return candidate
+
+        return None
 
 
     def activate_window(self):

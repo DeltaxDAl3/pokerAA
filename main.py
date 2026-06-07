@@ -11,6 +11,35 @@ from audio_player           import AudioPlayer
 from read_poker_table       import ReadPokerTable
 from hero_hand_range        import PokerHandRangeDetector
 from hero_info              import HeroInfo
+class FallbackWindow:
+    def __init__(self, title, left, top, width, height):
+        self.title = title
+        self.left = int(left)
+        self.top = int(top)
+        self.width = int(width)
+        self.height = int(height)
+
+    def activate(self):
+        return None
+
+    def resizeTo(self, width, height):
+        self.width = int(width)
+        self.height = int(height)
+
+
+def get_windows_by_title(title_contains):
+    if hasattr(gw, "getWindowsWithTitle"):
+        return gw.getWindowsWithTitle(title_contains)
+
+    windows = []
+    for title in gw.getAllTitles():
+        if title_contains in title:
+            try:
+                left, top, width, height = gw.getWindowGeometry(title)
+                windows.append(FallbackWindow(title, left, top, width, height))
+            except Exception:
+                continue
+    return windows
 
 def main():
 
@@ -65,8 +94,7 @@ def main():
 
 def locate_poker_window():
     """Locate the poker client window."""
-
-    windows = gw.getWindowsWithTitle("No Limit")
+    windows = get_windows_by_title("No Limit")
 
     for window in windows:
 
@@ -88,9 +116,11 @@ def locate_poker_window():
 
 def resize_poker_window( window, width, height ):
     """Resize the poker client window to the specified width and height."""
-
-    window.resizeTo(width, height)
-    print(f"Resized window to: Width={width}, Height={height}")
+    try:
+        window.resizeTo(width, height)
+        print(f"Resized window to: Width={width}, Height={height}")
+    except Exception as e:
+        print(f"Could not resize window automatically: {e}")
         
  
 

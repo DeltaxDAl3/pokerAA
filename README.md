@@ -15,17 +15,21 @@ It has built-in GUI to visualize poker data + voice support to playback actions 
 
 ## Prerequisites
 
-- Python 3.8 or higher
-- Access to OpenAI GPT-4 API 
+- Python 3.11 or higher (Python 3.10+ required because the code uses `match/case` syntax)
+- Access to OpenAI API
 - Tesseract OCR for text recognition
-- Pokerstars client
+- PokerStars client
 
 ## Installation
 
 1. Clone the repository to your local machine.
-2. Install the required Python dependencies by running `pip install -r requirements.txt`.
-3. Set up your OpenAI API key in the `pokergpt.env` file. (register free account at https://openai.com/ and get your API key here: https://platform.openai.com/api-keys)
-4. Make sure Tesseract OCR is installed and its path is correctly set in the scripts(Tesseract is included and path set).
+2. Create and activate a Python 3.11 virtual environment.
+3. Install dependencies:
+   - `pip install openai pygetwindow colorama pyobjc pyautogui pygame keyboard mss opencv-python-headless numpy pytesseract pillow`
+4. Create/update `pokergpt.env` with your key:
+   - `OPENAI_API_KEY=your_api_key_here`
+5. Install Tesseract OCR (or provide the executable path via `TESSERACT_CMD`).
+   - The app resolves Tesseract in this order: `TESSERACT_CMD` env var, system `PATH`, then bundled `tesseract/` candidates.
 
 ## PokerStars client (Visual) setup:
 1. Since this bot reads all of the data from the poker client window, you will need to setup the visuals excactly like in this image:
@@ -38,7 +42,9 @@ It has built-in GUI to visualize poker data + voice support to playback actions 
 To start the PokerGPT, follow these steps:
 
 1. Open Pokerstars client and ensure it's visible on the screen.
-2. Run `main.py` to initiate the bot: `python main.py`.
+2. Load environment variables and run:
+   - `set -a; source pokergpt.env; set +a`
+   - `python main.py`
 3. Enter your own player number (player numbers start from the bottom of the table and goes clockwise 1(bottom), 2(bottom-left), 3(top-eft), 4(top), 5(top-right), 6(bottom-right))
 4. The bot will automatically locate the poker window and start playing based on the GPT-4 strategy analysis.
 
