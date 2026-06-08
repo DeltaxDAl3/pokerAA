@@ -549,6 +549,7 @@ _CLICK_ACTION_RETRIES = 3
 _CLICK_RETRY_BASE_DELAY = 0.05
 _WINDOW_REACTIVATE_MIN_INTERVAL_SEC = 0.30
 _LAST_WINDOW_REACTIVATION_TS = 0.0
+_CENTER_SLOT_FALLBACK_RETRIES = 2
 
 
 def _get_window_rect(window_info: dict):
@@ -793,6 +794,28 @@ def _resolve_center_button_name(
     return ""
 
 
+def _center_slot_looks_clickable(
+    window_info: dict,
+    retries: int = _CENTER_SLOT_FALLBACK_RETRIES,
+) -> bool:
+    if _button_region_looks_visible(window_info, "call", retries=retries, reactivate_on_retry=True):
+        return True
+    if _button_region_looks_visible(window_info, "check", retries=retries, reactivate_on_retry=True):
+        return True
+    if _button_is_visible(window_info, "call", retries=1, reactivate_on_retry=True):
+        return True
+    if _button_is_visible(window_info, "check", retries=1, reactivate_on_retry=True):
+        return True
+    return False
+
+
+def _click_center_slot_fallback(window_info: dict, preferred_button: str = "check") -> bool:
+    target = "call" if preferred_button == "call" else "check"
+    if not _center_slot_looks_clickable(window_info):
+        return False
+    return _click_button_once_without_visibility_check(window_info, target)
+
+
 def _resolve_right_button_name(
     window_info: dict,
     preferred_button: str,
@@ -867,8 +890,11 @@ def _click_right_action_with_amount(
             return True
         last_error = f"click su bottone '{target_after_input}' fallito"
 
-    if click_call(window_info):
+    if click_call(window_info, quiet=True):
         print(f"[window_manager] {action_label} fallback: bottone destro instabile, eseguito bottone centrale.")
+        return True
+    if _click_center_slot_fallback(window_info, preferred_button="check"):
+        print(f"[window_manager] {action_label} fallback: bottone destro instabile, eseguito click centrale blind.")
         return True
     print(f"[window_manager] {action_label} annullato: {last_error}.")
     return False
@@ -896,11 +922,23 @@ def hero_action_buttons_ready(window_info: dict) -> bool:
     )
 
 
-def click_fold(window_info: dict) -> bool:
-    return _click_button_once(window_info, "fold")
+def click_fold(window_info: dict, quiet: bool = False) -> bool:
+    for attempt in range(_CLICK_ACTION_RETRIES):
+        if attempt > 0:
+            _best_effort_reactivate_window_for_click(window_info, force=True)
+            _sleep_for_click_retry(attempt)
+        if _button_is_visible(window_info, "fold", retries=1, reactivate_on_retry=True):
+            return _click_button_once_without_visibility_check(window_info, "fold")
+        if _click_center_slot_fallback(window_info, preferred_button="check"):
+            if not quiet:
+                print("[window_manager] Fold fallback: bottone 'fold' non visibile, eseguito bottone centrale.")
+            return True
+    if not quiet:
+        print("[window_manager] Click annullato: bottone 'fold' non visibile.")
+    return False
 
 
-def click_check(window_info: dict) -> bool:
+def click_check(window_info: dict, quiet: bool = False) -> bool:
     for attempt in range(_CLICK_ACTION_RETRIES):
         if attempt > 0:
             _best_effort_reactivate_window_for_click(window_info, force=True)
@@ -909,11 +947,16 @@ def click_check(window_info: dict) -> bool:
         if target_button:
             # Check/Call condividono lo stesso bottone centrale.
             return _click_button_once_without_visibility_check(window_info, target_button)
-    print("[window_manager] Click annullato: bottone 'check' non visibile.")
+    if _click_center_slot_fallback(window_info, preferred_button="check"):
+        if not quiet:
+            print("[window_manager] Check fallback: bottone centrale stimato, eseguito click blind.")
+        return True
+    if not quiet:
+        print("[window_manager] Click annullato: bottone 'check' non visibile.")
     return False
 
 
-def click_call(window_info: dict) -> bool:
+def click_call(window_info: dict, quiet: bool = False) -> bool:
     for attempt in range(_CLICK_ACTION_RETRIES):
         if attempt > 0:
             _best_effort_reactivate_window_for_click(window_info, force=True)
@@ -922,7 +965,12 @@ def click_call(window_info: dict) -> bool:
         if target_button:
             # Call/Check condividono lo stesso bottone centrale.
             return _click_button_once_without_visibility_check(window_info, target_button)
-    print("[window_manager] Click annullato: bottone 'call' non visibile.")
+    if _click_center_slot_fallback(window_info, preferred_button="call"):
+        if not quiet:
+            print("[window_manager] Call fallback: bottone centrale stimato, eseguito click blind.")
+        return True
+    if not quiet:
+        print("[window_manager] Click annullato: bottone 'call' non visibile.")
     return False
 
 

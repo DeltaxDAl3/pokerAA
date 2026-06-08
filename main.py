@@ -25,10 +25,17 @@ RANK_MAP = {
 }
 _EQUITY_CACHE_MAX_SIZE = 2400
 _EQUITY_CACHE: dict[tuple[tuple[str, ...], tuple[str, ...]], float] = {}
-FOLD_EQUITY_THRESHOLD = 0.28
-AGGRESSIVE_EQUITY_THRESHOLD = 0.48
-POSTFLOP_RAISE_THRESHOLD = 0.52
+FOLD_EQUITY_THRESHOLD = 0.32
+AGGRESSIVE_EQUITY_THRESHOLD = 0.56
+POSTFLOP_RAISE_THRESHOLD = 0.58
 OCR_UNCERTAIN_CALL_MAX_BB = 1.2
+PREFLOP_DEFEND_MIN_EQUITY = 0.36
+POSTFLOP_DEFEND_MIN_EQUITY = 0.42
+PREFLOP_RERAISE_BASE_MIN_EQUITY = 0.58
+PREFLOP_WIDE_OPEN_MIN_EQUITY = 0.50
+POSTFLOP_TOP_PAIR_BET_MIN_EQUITY = 0.60
+TOP_PAIR_STRONG_RAISE_MIN_EQUITY = 0.66
+TOP_PAIR_CONTROL_CALL_MARGIN = 0.03
 BOARD_STAGE_LENGTHS = {0, 3, 4, 5}
 BOARD_RESET_CONFIRMATION_CYCLES = 2
 HOLE_SWITCH_CONFIRMATION_CYCLES = 2
@@ -36,6 +43,8 @@ DIVERSITY_STATE_REPEAT_THRESHOLD = 6
 DIVERSITY_ACTION_STREAK_THRESHOLD = 4
 DIVERSITY_COOLDOWN_CYCLES = 2
 DIVERSITY_PERIODIC_FORCE_INTERVAL = 8
+NO_TABLE_RECOVERY_TRIGGER_CYCLES = 5
+NO_TABLE_RECOVERY_MAX_WINDOWS = 4
 
 
 @dataclass
@@ -429,8 +438,8 @@ def _is_premium_pair(hole_cards: list[str]) -> bool:
 
 def _is_green_hand(hole_cards: list[str]) -> bool:
     """
-    Mani verdi da giocare in modo aggressivo:
-    AK, AQ, AJ, KQ, broadway, coppie 55+, suited connectors.
+    Mani verdi da giocare in modo aggressivo (range più tight):
+    AK/AQ/AJ/KQ, coppie 88+, suited connectors 98s+.
     """
     if len(hole_cards) != 2:
         return False
@@ -440,17 +449,38 @@ def _is_green_hand(hole_cards: list[str]) -> bool:
     suited = s1 == s2
 
     named_green_combo = (hi, lo) in ((14, 13), (14, 12), (14, 11), (13, 12))  # AK, AQ, AJ, KQ
-    pair_55_plus = r1 == r2 and r1 >= 5
-    suited_connector = suited and abs(r1 - r2) == 1 and hi >= 6
-    broadway = hi >= 10 and lo >= 10
-    return named_green_combo or pair_55_plus or suited_connector or broadway
+    pair_88_plus = r1 == r2 and r1 >= 8
+    suited_connector_98_plus = suited and abs(r1 - r2) == 1 and hi >= 9
+    return named_green_combo or pair_88_plus or suited_connector_98_plus
 
 def _is_aggressive_preflop_combo(hole_cards: list[str]) -> bool:
     return _is_green_hand(hole_cards)
 
 
-def _good_kicker(hole_cards: list[str]) -> bool:
-    return max((_card_rank(c) for c in hole_cards), default=0) >= 11
+def _top_pair_kicker_rank(hole_cards: list[str], board_cards: list[str]) -> int:
+    if len(hole_cards) != 2 or not board_cards:
+        return 0
+    board_ranks = [_card_rank(c) for c in board_cards]
+    hole_ranks = [_card_rank(c) for c in hole_cards]
+    top_board_rank = max(board_ranks, default=0)
+    if top_board_rank <= 0 or top_board_rank not in hole_ranks:
+        return 0
+    kicker_candidates = [rank for rank in hole_ranks if rank != top_board_rank]
+    if kicker_candidates:
+        return max(kicker_candidates)
+    return top_board_rank
+
+
+def _is_top_pair_good_kicker(hole_cards: list[str], board_cards: list[str], has_top_pair: bool) -> bool:
+    if not has_top_pair:
+        return False
+    kicker_rank = _top_pair_kicker_rank(hole_cards, board_cards)
+    top_board_rank = max((_card_rank(c) for c in board_cards), default=0)
+    if top_board_rank >= 13:  # A or K high board
+        return kicker_rank >= 11  # J kicker+
+    if top_board_rank == 12:  # Q high board
+        return kicker_rank >= 10  # T kicker+
+    return kicker_rank >= 9
 
 def _is_big_ace_combo(hole_cards: list[str]) -> bool:
     if len(hole_cards) != 2:
@@ -473,18 +503,18 @@ def _draw_hit_probability(draw_outs: int, cards_to_come: int) -> float:
 
 def _should_open_wide_preflop(hole_cards: list[str], position: str) -> bool:
     """
-    Range ampio preflop con focus BTN/CO >=40%.
+    Range apertura positionale, ma più disciplinato per evitare over-aggression.
     """
     if len(hole_cards) != 2:
         return False
     score = _hole_preflop_score(hole_cards)
     thresholds = {
-        "BTN": 0.40,
-        "CO": 0.42,
-        "HJ": 0.47,
-        "UTG": 0.52,
-        "SB": 0.45,
-        "BB": 0.50,
+        "BTN": 0.47,
+        "CO": 0.50,
+        "HJ": 0.56,
+        "UTG": 0.62,
+        "SB": 0.54,
+        "BB": 0.60,
     }
     return score >= thresholds.get(position, 0.47)
 
@@ -538,27 +568,26 @@ def _in_solver_gto_range(hole_cards: list[str], position: str) -> bool:
     hi, lo = max(r1, r2), min(r1, r2)
     pair = r1 == r2
     suited = s1 == s2
+    pair_88_plus = pair and hi >= 8
     pair_77_plus = pair and hi >= 7
-    pair_66_plus = pair and hi >= 6
-    pair_55_plus = pair and hi >= 5
     broadway = hi >= 10 and lo >= 10
-    suited_connector = suited and abs(r1 - r2) == 1 and hi >= 6
+    suited_connector = suited and abs(r1 - r2) == 1 and hi >= 9
     suited_one_gap = suited and abs(r1 - r2) == 2 and hi >= 9
-    named_core = (hi, lo) in ((14, 13), (14, 12), (14, 11), (13, 12))  # AK/AQ/AJ/KQ
-    suited_ace_wheel = suited and hi == 14 and lo <= 5
-    suited_ace_strong = suited and hi == 14 and lo >= 9
+    named_core = (hi, lo) in ((14, 13), (14, 12), (14, 11), (13, 12), (14, 10))  # AK/AQ/AJ/KQ/AT
+    suited_ace_wheel = suited and hi == 14 and lo <= 4
+    suited_ace_strong = suited and hi == 14 and lo >= 10
     suited_broadway = suited and broadway
 
     if position == "BTN":
-        return pair_55_plus or broadway or suited_connector or suited_one_gap or suited_ace_wheel or suited_ace_strong
+        return pair_77_plus or broadway or suited_connector or suited_one_gap or suited_ace_wheel or suited_ace_strong
     if position == "CO":
-        return pair_55_plus or broadway or suited_connector or suited_ace_wheel or suited_ace_strong
+        return pair_77_plus or broadway or suited_connector or suited_ace_wheel or suited_ace_strong
     if position in ("HJ", "SB"):
-        return pair_66_plus or named_core or suited_broadway or (suited_connector and hi >= 8) or suited_ace_wheel or suited_ace_strong
+        return pair_88_plus or named_core or suited_broadway or suited_connector or suited_ace_wheel or suited_ace_strong
     if position == "BB":
-        return pair_66_plus or named_core or broadway or (suited_connector and hi >= 7) or suited_ace_wheel
+        return pair_77_plus or named_core or broadway or suited_connector or suited_ace_wheel
     # UTG
-    return pair_77_plus or named_core or (suited_broadway and hi >= 12) or (suited_connector and hi >= 10) or suited_ace_wheel
+    return pair_88_plus or named_core or (suited_broadway and hi >= 12) or (suited_connector and hi >= 11) or suited_ace_wheel
 
 
 def _is_garbage_hand(hole_cards: list[str], board_cards: list[str], info: dict) -> bool:
@@ -585,12 +614,12 @@ def _is_garbage_hand(hole_cards: list[str], board_cards: list[str], info: dict) 
 
 def _position_aggression_bonus(position: str) -> float:
     bonuses = {
-        "BTN": 0.07,
-        "CO": 0.05,
-        "HJ": 0.03,
+        "BTN": 0.02,
+        "CO": 0.015,
+        "HJ": 0.01,
         "UTG": 0.00,
-        "SB": 0.04,
-        "BB": 0.02,
+        "SB": 0.01,
+        "BB": 0.00,
     }
     return bonuses.get(position, 0.0)
 
@@ -631,7 +660,6 @@ def decide_action(
     premium_pair = _is_premium_pair(hole_cards)
     green_hand = _is_green_hand(hole_cards)
     wide_open_hand = _should_open_wide_preflop(hole_cards, position)
-    good_kicker = _good_kicker(hole_cards)
     gto_open_range = _in_solver_gto_range(hole_cards, position)
     has_flush_draw = info["flush_draw"]
     has_straight_draw = info["straight_draw"]
@@ -639,7 +667,7 @@ def decide_action(
     draw_hit_prob = _draw_hit_probability(info["draw_outs"], 2 if len(board_cards) <= 3 else 1)
     strong_draw = info["draw_outs"] >= 8 or draw_hit_prob >= 0.24
     top_pair_any = info["top_pair"]
-    top_pair_good_kicker = info["top_pair"] and good_kicker
+    top_pair_good_kicker = _is_top_pair_good_kicker(hole_cards, board_cards, info["top_pair"])
     strong_value_hand = top_pair_good_kicker or tier >= 3 or premium_pair
     short_stack_mode = effective_stack_bb <= 14.0
 
@@ -647,9 +675,9 @@ def decide_action(
     equity += _position_aggression_bonus(position)
     equity += draw_hit_prob * 0.12
     if top_pair_good_kicker:
-        equity = min(0.99, equity + 0.07)
+        equity = min(0.99, equity + 0.04)
     if has_flush_draw:
-        equity = min(0.99, equity + 0.06)
+        equity = min(0.99, equity + 0.05)
     if premium_pair and not board_cards:
         equity = max(equity, 0.66)
     if late_position and gto_open_range and not board_cards:
@@ -664,23 +692,34 @@ def decide_action(
         # Con input OCR conflittuale abbassiamo l'equity stimata per limitare over-aggression.
         equity = max(0.12, equity - 0.06)
 
-    # Preflop GTO: range ampio e più apertura in BTN/CO
+    # Preflop disciplinato: meno reraise/open marginali fuori posizione.
     if not board_cards:
-        if short_stack_mode and (premium_pair or _is_big_ace_combo(hole_cards) or green_hand or equity >= 0.56):
+        strong_preflop_raise_combo = premium_pair or _is_big_ace_combo(hole_cards)
+        if short_stack_mode and (
+            strong_preflop_raise_combo
+            or (green_hand and equity >= 0.64)
+            or equity >= 0.66
+        ):
             jam_size = round(min(stack_bb, effective_stack_bb), 1)
             return Decision("raise", jam_size, "short_stack_gto_push", equity, spr, pot_odds, position)
-        if to_call_bb > 0 and (green_hand or equity >= AGGRESSIVE_EQUITY_THRESHOLD):
-            reraise_size = _solver_raise_size(
-                pot_bb,
-                effective_stack_bb,
-                effective_spr,
-                position,
-                "value" if (premium_pair or _is_big_ace_combo(hole_cards)) else "merged",
-                to_call_bb=to_call_bb,
-                preflop=True,
-            )
-            return Decision("raise", reraise_size, "aggressive_preflop_reraise", equity, spr, pot_odds, position)
-        if gto_open_range or (late_position and wide_open_hand):
+        reraise_threshold = PREFLOP_RERAISE_BASE_MIN_EQUITY + (0.02 if not late_position else 0.0)
+        if to_call_bb > 0 and (
+            strong_preflop_raise_combo
+            or (green_hand and equity >= reraise_threshold)
+            or equity >= (reraise_threshold + 0.02)
+        ):
+            if strong_preflop_raise_combo or to_call_bb <= 2.6:
+                reraise_size = _solver_raise_size(
+                    pot_bb,
+                    effective_stack_bb,
+                    effective_spr,
+                    position,
+                    "value" if strong_preflop_raise_combo else "merged",
+                    to_call_bb=to_call_bb,
+                    preflop=True,
+                )
+                return Decision("raise", reraise_size, "aggressive_preflop_reraise", equity, spr, pot_odds, position)
+        if to_call_bb <= 0 and (gto_open_range or (late_position and wide_open_hand and equity >= PREFLOP_WIDE_OPEN_MIN_EQUITY)):
             preflop_size = _solver_raise_size(
                 pot_bb,
                 effective_stack_bb,
@@ -692,25 +731,24 @@ def decide_action(
             )
             open_reason = "wide_btn_co_open_40pct" if (late_position and wide_open_hand and not gto_open_range) else "gto_preflop_open"
             return Decision("raise", preflop_size, open_reason, equity, spr, pot_odds, position)
-        if equity > 0.55:
+        if to_call_bb <= 0 and equity > 0.64 and position in ("BTN", "CO", "SB"):
             preflop_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "merged", to_call_bb=to_call_bb, preflop=True)
             return Decision("raise", preflop_size, "equity_over_55_preflop_raise", equity, spr, pot_odds, position)
         if to_call_bb > 0:
-            if equity < FOLD_EQUITY_THRESHOLD and not green_hand:
+            if equity < max(FOLD_EQUITY_THRESHOLD, PREFLOP_DEFEND_MIN_EQUITY - (0.02 if blind_position else 0.0)) and not green_hand:
                 return Decision("fold", 0.0, "fold_preflop_under_28", equity, spr, pot_odds, position)
             defend_threshold = max(
-                FOLD_EQUITY_THRESHOLD,
-                pot_odds
-                - (0.03 if late_position else 0.0)
+                PREFLOP_DEFEND_MIN_EQUITY,
+                pot_odds + 0.02
+                - (0.02 if late_position else 0.0)
                 - (0.02 if blind_position else 0.0),
             )
             if equity >= defend_threshold:
                 if blind_position and to_call_bb <= 1.5:
                     return Decision("call", to_call_bb, "preflop_blind_cheap_defend", equity, spr, pot_odds, position)
                 return Decision("call", to_call_bb, "preflop_pot_odds_call", equity, spr, pot_odds, position)
-            # hard rule: niente fold sopra 28% senza draw preflop -> flat-call difensivo
-            return Decision("call", to_call_bb, "preflop_floor_call_over_28", equity, spr, pot_odds, position)
-        if late_position and equity >= 0.34:
+            return Decision("fold", 0.0, "preflop_fold_under_defend_threshold", equity, spr, pot_odds, position)
+        if to_call_bb <= 0 and late_position and gto_open_range and equity >= 0.46:
             open_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "probe", preflop=True)
             return Decision("raise", open_size, "late_position_gto_open", equity, spr, pot_odds, position)
         return Decision("check", 0.0, "check_preflop", equity, spr, pot_odds, position)
@@ -718,20 +756,43 @@ def decide_action(
     postflop_aggressive_action = "raise" if to_call_bb > 0 else "bet"
 
     # Postflop value line
-    if tier >= 3 or top_pair_good_kicker:
+    if tier >= 3:
         profile = "nuts" if tier >= 5 else "value"
         value_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, profile, preflop=False)
-        reason = "value_raise_two_pair_plus" if tier >= 3 else "thin_value_top_pair_good_kicker"
-        return Decision(postflop_aggressive_action, value_size, reason, equity, spr, pot_odds, position)
+        return Decision(postflop_aggressive_action, value_size, "value_raise_two_pair_plus", equity, spr, pot_odds, position)
+    if top_pair_good_kicker:
+        if to_call_bb > 0:
+            top_pair_raise_threshold = max(TOP_PAIR_STRONG_RAISE_MIN_EQUITY, pot_odds + 0.18)
+            if equity >= top_pair_raise_threshold and effective_spr <= 3.4 and to_call_bb <= 3.6:
+                value_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "thin", preflop=False)
+                return Decision("raise", value_size, "thin_value_top_pair_good_kicker", equity, spr, pot_odds, position)
+            top_pair_call_threshold = max(POSTFLOP_DEFEND_MIN_EQUITY, pot_odds + TOP_PAIR_CONTROL_CALL_MARGIN)
+            if equity >= top_pair_call_threshold:
+                return Decision("call", to_call_bb, "top_pair_good_kicker_controlled_call", equity, spr, pot_odds, position)
+            return Decision("fold", 0.0, "top_pair_good_kicker_fold_under_pressure", equity, spr, pot_odds, position)
+        if equity >= POSTFLOP_TOP_PAIR_BET_MIN_EQUITY and effective_spr <= 4.5:
+            thin_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "thin", preflop=False)
+            return Decision("bet", thin_size, "thin_value_top_pair_good_kicker", equity, spr, pot_odds, position)
+        return Decision("check", 0.0, "top_pair_good_kicker_pot_control", equity, spr, pot_odds, position)
     if top_pair_any:
-        profile = "thin" if not top_pair_good_kicker else "merged"
-        top_pair_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, profile, preflop=False)
-        return Decision(postflop_aggressive_action, top_pair_size, "top_pair_pressure", equity, spr, pot_odds, position)
+        if to_call_bb > 0:
+            top_pair_defend_threshold = max(POSTFLOP_DEFEND_MIN_EQUITY, pot_odds + 0.04)
+            if equity >= top_pair_defend_threshold:
+                return Decision("call", to_call_bb, "top_pair_controlled_call", equity, spr, pot_odds, position)
+            return Decision("fold", 0.0, "top_pair_fold_under_pressure", equity, spr, pot_odds, position)
+        if equity >= 0.57 and effective_spr <= 2.8:
+            probe_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "probe", preflop=False)
+            return Decision("bet", probe_size, "top_pair_thin_value_probe", equity, spr, pot_odds, position)
+        return Decision("check", 0.0, "top_pair_check_back", equity, spr, pot_odds, position)
 
     # Semi-bluff flush/straight draw
     if has_any_draw:
-        if to_call_bb > 0 and not strong_draw and equity < 0.42:
-            return Decision("call", to_call_bb, "draw_call_controlled_line", equity, spr, pot_odds, position)
+        if to_call_bb > 0:
+            draw_defend_threshold = max(POSTFLOP_DEFEND_MIN_EQUITY, pot_odds + 0.05)
+            if not strong_draw and equity < draw_defend_threshold:
+                return Decision("fold", 0.0, "draw_fold_low_equity", equity, spr, pot_odds, position)
+            if equity < max(draw_defend_threshold, 0.45):
+                return Decision("call", to_call_bb, "draw_call_controlled_line", equity, spr, pot_odds, position)
         semi_profile = "merged" if strong_draw else "semi"
         semi_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, semi_profile, preflop=False)
         return Decision(postflop_aggressive_action, semi_size, "aggressive_draw_semi_bluff", equity, spr, pot_odds, position)
@@ -750,10 +811,14 @@ def decide_action(
         if equity >= raise_threshold:
             pressure_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "merged", preflop=False)
             return Decision("raise", pressure_size, "postflop_equity_pressure_raise", equity, spr, pot_odds, position)
-        if blind_position and to_call_bb <= 1.2 and equity >= max(0.33, pot_odds - 0.01):
+        call_threshold = max(POSTFLOP_DEFEND_MIN_EQUITY, pot_odds + 0.04)
+        if blind_position and to_call_bb <= 1.2 and equity >= max(call_threshold - 0.03, 0.36):
             return Decision("call", to_call_bb, "postflop_blind_cheap_defend", equity, spr, pot_odds, position)
-        # hard rule: call over floor, fold only under 28% without draw
-        return Decision("call", to_call_bb, "postflop_pot_odds_call", equity, spr, pot_odds, position)
+        if has_any_draw and strong_draw and equity >= max(pot_odds + 0.01, 0.36):
+            return Decision("call", to_call_bb, "postflop_strong_draw_defend", equity, spr, pot_odds, position)
+        if equity >= call_threshold and not garbage_hand:
+            return Decision("call", to_call_bb, "postflop_pot_odds_call", equity, spr, pot_odds, position)
+        return Decision("fold", 0.0, "postflop_fold_under_defend_threshold", equity, spr, pot_odds, position)
 
     if late_position and equity >= 0.40:
         steal_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, "probe", preflop=False)
@@ -839,7 +904,7 @@ def _apply_action_diversity_guard(
                     f"diversity_guard_check_from_{action}",
                 )
         elif action == "call":
-            if decision.equity >= max(AGGRESSIVE_EQUITY_THRESHOLD, decision.pot_odds + 0.08):
+            if to_call_bb <= 1.8 and decision.equity >= max(AGGRESSIVE_EQUITY_THRESHOLD, decision.pot_odds + 0.12):
                 raise_size = _solver_raise_size(
                     pot_bb,
                     max(5.0, stack_bb),
@@ -863,7 +928,7 @@ def _apply_action_diversity_guard(
                     "diversity_guard_fold_from_call",
                 )
         elif action == "check":
-            if to_call_bb <= 0 and decision.equity >= 0.36:
+            if to_call_bb <= 0 and decision.equity >= 0.44:
                 probe_size = _solver_raise_size(
                     pot_bb,
                     max(5.0, stack_bb),
@@ -1010,15 +1075,21 @@ def main():
     interrupted = False
     table_consistency_states: dict[int, TableConsistencyState] = {}
     table_diversity_states: dict[int, TableActionDiversityState] = {}
+    no_table_streak = 0
+    no_table_cycles = 0
+    active_table_cycles = 0
     try:
         while True:
             cycle += 1
             try:
+                scan_max_windows = 2 if no_table_streak < NO_TABLE_RECOVERY_TRIGGER_CYCLES else NO_TABLE_RECOVERY_MAX_WINDOWS
 
                 with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
-                    windows = find_and_activate_poker_windows(max_windows=2)
+                    windows = find_and_activate_poker_windows(max_windows=scan_max_windows)
 
                 if not windows:
+                    no_table_streak += 1
+                    no_table_cycles += 1
                     if fallback_sim_mode:
                         sim_outputs = []
                         tracked_cycle_stack_bb: float | None = None
@@ -1066,9 +1137,10 @@ def main():
                             if initial_stack_bb is None:
                                 initial_stack_bb = tracked_cycle_stack_bb
                             final_stack_bb = tracked_cycle_stack_bb
+                        active_table_cycles += 1
                         print(f"Ciclo {cycle} - Nessun tavolo Zoom rilevato -> fallback sim mode || " + " || ".join(sim_outputs))
                     else:
-                        print(f"Ciclo {cycle} - Nessun tavolo Zoom rilevato")
+                        print(f"Ciclo {cycle} - Nessun tavolo Zoom rilevato (streak: {no_table_streak})")
                     if cycle % 50 == 0:
                         stack_for_summary = final_stack_bb if final_stack_bb is not None else 0.0
                         profit_for_summary = (
@@ -1080,10 +1152,21 @@ def main():
                             f"Ciclo {cycle} - Stack: {stack_for_summary:.1f} BB - "
                             f"Profitto: {_format_signed_bb(profit_for_summary)} BB"
                         )
+                        print(
+                            f"Ciclo {cycle} - Cicli attivi: {active_table_cycles} - "
+                            f"Cicli no-table: {no_table_cycles}"
+                        )
                     if max_cycles and cycle >= max_cycles:
                         break
                     time.sleep(loop_delay)
                     continue
+                if no_table_streak >= NO_TABLE_RECOVERY_TRIGGER_CYCLES:
+                    print(
+                        f"Ciclo {cycle} - Recovery: tavolo Zoom recuperato dopo "
+                        f"{no_table_streak} cicli senza rilevamento."
+                    )
+                no_table_streak = 0
+                active_table_cycles += 1
 
                 table_outputs = []
                 tracked_cycle_stack_bb: float | None = None
@@ -1164,6 +1247,10 @@ def main():
                         f"Ciclo {cycle} - Stack: {stack_for_summary:.1f} BB - "
                         f"Profitto: {_format_signed_bb(profit_bb)} BB"
                     )
+                    print(
+                        f"Ciclo {cycle} - Cicli attivi: {active_table_cycles} - "
+                        f"Cicli no-table: {no_table_cycles}"
+                    )
                 if max_cycles and cycle >= max_cycles:
                     break
             except Exception:
@@ -1179,6 +1266,10 @@ def main():
                         f"Ciclo {cycle} - Stack: {stack_for_summary:.1f} BB - "
                         f"Profitto: {_format_signed_bb(profit_for_summary)} BB"
                     )
+                    print(
+                        f"Ciclo {cycle} - Cicli attivi: {active_table_cycles} - "
+                        f"Cicli no-table: {no_table_cycles}"
+                    )
                 if max_cycles and cycle >= max_cycles:
                     break
             time.sleep(loop_delay)
@@ -1191,7 +1282,7 @@ def main():
         if final_stack_bb is None:
             final_stack_bb = initial_stack_bb
         net_profit_bb = final_stack_bb - initial_stack_bb
-        hands_played = max(cycle, 1)
+        hands_played = max(active_table_cycles, 1)
         winrate_bb_100 = (net_profit_bb / hands_played) * 100.0
         if max_cycles and cycle >= max_cycles and not interrupted:
             print(
@@ -1199,11 +1290,19 @@ def main():
                 f"{_format_signed_bb(net_profit_bb)} BB - "
                 f"Winrate: {winrate_bb_100:.1f} BB/100 mani"
             )
+            print(
+                f"Metriche sessione - Cicli attivi: {active_table_cycles} - "
+                f"Cicli no-table: {no_table_cycles}"
+            )
         elif cycle > 0:
             print(
                 f"Test interrotto dopo {cycle} cicli - Profitto netto: "
                 f"{_format_signed_bb(net_profit_bb)} BB - "
                 f"Winrate: {winrate_bb_100:.1f} BB/100 mani"
+            )
+            print(
+                f"Metriche sessione - Cicli attivi: {active_table_cycles} - "
+                f"Cicli no-table: {no_table_cycles}"
             )
 
 
