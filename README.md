@@ -92,6 +92,18 @@ set -a && source pokergpt.env && set +a
 - On macOS the table window cannot be auto-resized; resize manually to ~960×690
 - Image reading speed depends on CPU performance
 
+## Recent stability improvements (click layer)
+- Added dedicated safe click paths for hero actions (`click_fold`, `click_check`, `click_call`, `click_raise`, `click_bet`).
+- Hardened button visibility checks with bounded retries, OCR-label fallback, and pixel-based fallback.
+- Added right-button resolution (`raise`/`bet`) and center-button resolution (`check`/`call`) for shared/unstable UI labels.
+- Added post-amount-entry verification before final right-button click, with recovery retries.
+- Added best-effort window reactivation before critical retries to reduce focus-loss click failures on macOS.
+- Kept one-action-per-cycle behavior in the decision loop to avoid conflicting click attempts.
+
+Validation snapshot:
+- Runtime command: `MAX_CYCLES=50 FALLBACK_SIM_MODE=0 python3 main.py`
+- Outcome: completed 50 cycles without residual click-layer cancellation errors (`Raise annullato`, `Bet annullata`, `Click annullato` not observed in log).
+
 ## Contributing
 
 Contributions to PokerGPT are welcome!
