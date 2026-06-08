@@ -32,6 +32,10 @@ OCR_UNCERTAIN_CALL_MAX_BB = 1.2
 BOARD_STAGE_LENGTHS = {0, 3, 4, 5}
 BOARD_RESET_CONFIRMATION_CYCLES = 2
 HOLE_SWITCH_CONFIRMATION_CYCLES = 2
+DIVERSITY_STATE_REPEAT_THRESHOLD = 6
+DIVERSITY_ACTION_STREAK_THRESHOLD = 4
+DIVERSITY_COOLDOWN_CYCLES = 2
+DIVERSITY_PERIODIC_FORCE_INTERVAL = 8
 
 
 @dataclass
@@ -52,6 +56,15 @@ class TableConsistencyState:
     pending_hole_cards: list[str] = field(default_factory=list)
     pending_hole_switch_count: int = 0
     pending_empty_board_count: int = 0
+
+
+@dataclass
+class TableActionDiversityState:
+    last_state_key: tuple[str, ...] | None = None
+    state_repeat_count: int = 0
+    last_action: str = ""
+    same_action_streak: int = 0
+    cooldown_cycles_left: int = 0
 
 
 def _card_rank(card: str) -> int:
@@ -749,6 +762,142 @@ def decide_action(
     return Decision("check", 0.0, "check_back", equity, spr, pot_odds, position)
 
 
+def _build_diversity_state_key(
+    hole_cards: list[str],
+    board_cards: list[str],
+) -> tuple[str, ...]:
+    hole_key = " ".join(hole_cards[:2]) if hole_cards else "--"
+    board_key = " ".join(board_cards[:5]) if board_cards else "--"
+    return (hole_key, board_key, str(len(board_cards)))
+
+
+def _clone_decision(decision: Decision, action: str, amount_bb: float, reason: str) -> Decision:
+    return Decision(
+        action=action,
+        amount_bb=round(max(0.0, amount_bb), 1),
+        reason=reason,
+        equity=decision.equity,
+        spr=decision.spr,
+        pot_odds=decision.pot_odds,
+        position=decision.position,
+    )
+
+
+def _apply_action_diversity_guard(
+    diversity_state: TableActionDiversityState,
+    decision: Decision,
+    hole_cards: list[str],
+    board_cards: list[str],
+    pot_bb: float,
+    stack_bb: float,
+    to_call_bb: float,
+    position: str,
+) -> Decision:
+    state_key = _build_diversity_state_key(hole_cards, board_cards)
+    if diversity_state.last_state_key == state_key:
+        diversity_state.state_repeat_count += 1
+    else:
+        diversity_state.last_state_key = state_key
+        diversity_state.state_repeat_count = 1
+        diversity_state.last_action = ""
+        diversity_state.same_action_streak = 0
+        diversity_state.cooldown_cycles_left = 0
+
+    action = (decision.action or "").strip().lower()
+    if action == diversity_state.last_action:
+        diversity_state.same_action_streak += 1
+    else:
+        diversity_state.same_action_streak = 1
+
+    should_diversify = (
+        (
+            diversity_state.state_repeat_count >= DIVERSITY_STATE_REPEAT_THRESHOLD
+            and diversity_state.same_action_streak >= DIVERSITY_ACTION_STREAK_THRESHOLD
+        )
+        or (
+            diversity_state.state_repeat_count >= DIVERSITY_STATE_REPEAT_THRESHOLD
+            and diversity_state.state_repeat_count % DIVERSITY_PERIODIC_FORCE_INTERVAL == 0
+        )
+    ) and diversity_state.cooldown_cycles_left <= 0
+
+    diversified_decision = decision
+    if should_diversify:
+        preflop = len(board_cards) == 0
+        if action in ("raise", "bet"):
+            if to_call_bb > 0:
+                diversified_decision = _clone_decision(
+                    decision,
+                    "call",
+                    to_call_bb,
+                    f"diversity_guard_call_from_{action}",
+                )
+            else:
+                diversified_decision = _clone_decision(
+                    decision,
+                    "check",
+                    0.0,
+                    f"diversity_guard_check_from_{action}",
+                )
+        elif action == "call":
+            if decision.equity >= max(AGGRESSIVE_EQUITY_THRESHOLD, decision.pot_odds + 0.08):
+                raise_size = _solver_raise_size(
+                    pot_bb,
+                    max(5.0, stack_bb),
+                    max(0.1, decision.spr),
+                    position,
+                    "probe" if not preflop else "merged",
+                    to_call_bb=to_call_bb,
+                    preflop=preflop,
+                )
+                diversified_decision = _clone_decision(
+                    decision,
+                    "raise",
+                    raise_size,
+                    "diversity_guard_raise_from_call",
+                )
+            elif decision.equity < FOLD_EQUITY_THRESHOLD:
+                diversified_decision = _clone_decision(
+                    decision,
+                    "fold",
+                    0.0,
+                    "diversity_guard_fold_from_call",
+                )
+        elif action == "check":
+            if to_call_bb <= 0 and decision.equity >= 0.36:
+                probe_size = _solver_raise_size(
+                    pot_bb,
+                    max(5.0, stack_bb),
+                    max(0.1, decision.spr),
+                    position,
+                    "probe",
+                    to_call_bb=0.0,
+                    preflop=preflop,
+                )
+                diversified_decision = _clone_decision(
+                    decision,
+                    "raise" if preflop else "bet",
+                    probe_size,
+                    "diversity_guard_probe_from_check",
+                )
+        elif action == "fold":
+            if to_call_bb > 0 and decision.equity >= max(FOLD_EQUITY_THRESHOLD, decision.pot_odds):
+                diversified_decision = _clone_decision(
+                    decision,
+                    "call",
+                    to_call_bb,
+                    "diversity_guard_call_from_fold",
+                )
+
+        if diversified_decision is not decision:
+            diversity_state.cooldown_cycles_left = DIVERSITY_COOLDOWN_CYCLES
+
+    if diversity_state.cooldown_cycles_left > 0 and diversified_decision is decision:
+        diversity_state.cooldown_cycles_left -= 1
+
+    diversity_state.last_action = (diversified_decision.action or "").strip().lower()
+    return diversified_decision
+
+
 def _estimate_position(cycle: int, table_index: int) -> str:
     positions = ("UTG", "HJ", "CO", "BTN", "SB", "BB")
     return positions[(cycle + table_index - 1) % len(positions)]
@@ -860,6 +1009,7 @@ def main():
     final_stack_bb: float | None = None
     interrupted = False
     table_consistency_states: dict[int, TableConsistencyState] = {}
+    table_diversity_states: dict[int, TableActionDiversityState] = {}
     try:
         while True:
             cycle += 1
@@ -874,6 +1024,7 @@ def main():
                         tracked_cycle_stack_bb: float | None = None
                         for table_index in range(1, 3):
                             hole_cards, board_cards = _fallback_table_state(cycle, table_index)
+                            diversity_state = table_diversity_states.setdefault(table_index, TableActionDiversityState())
                             pot_bb, stack_bb, to_call_bb, opponent_stacks_bb, position = estimate_context(
                                 cycle,
                                 board_cards,
@@ -888,6 +1039,16 @@ def main():
                                 stack_bb,
                                 to_call_bb,
                                 opponent_stacks_bb,
+                                position,
+                            )
+                            decision = _apply_action_diversity_guard(
+                                diversity_state,
+                                decision,
+                                hole_cards,
+                                board_cards,
+                                pot_bb,
+                                stack_bb,
+                                to_call_bb,
                                 position,
                             )
                             sim_outputs.append(
@@ -929,6 +1090,7 @@ def main():
                 action_attempted_this_cycle = False
                 for table_index, window_info in enumerate(windows, start=1):
                     table_state = table_consistency_states.setdefault(table_index, TableConsistencyState())
+                    diversity_state = table_diversity_states.setdefault(table_index, TableActionDiversityState())
                     hole_cards: list[str] = []
                     board_cards: list[str] = []
                     with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
@@ -954,6 +1116,16 @@ def main():
                         stack_bb,
                         to_call_bb,
                         opponent_stacks_bb,
+                        position,
+                    )
+                    decision = _apply_action_diversity_guard(
+                        diversity_state,
+                        decision,
+                        hole_cards,
+                        board_cards,
+                        pot_bb,
+                        stack_bb,
+                        to_call_bb,
                         position,
                     )
 
