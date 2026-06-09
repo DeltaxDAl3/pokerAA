@@ -39,10 +39,12 @@ TOP_PAIR_CONTROL_CALL_MARGIN = 0.03
 BOARD_STAGE_LENGTHS = {0, 3, 4, 5}
 BOARD_RESET_CONFIRMATION_CYCLES = 2
 HOLE_SWITCH_CONFIRMATION_CYCLES = 2
-DIVERSITY_STATE_REPEAT_THRESHOLD = 6
-DIVERSITY_ACTION_STREAK_THRESHOLD = 4
-DIVERSITY_COOLDOWN_CYCLES = 2
-DIVERSITY_PERIODIC_FORCE_INTERVAL = 8
+DIVERSITY_STATE_REPEAT_THRESHOLD = 3
+DIVERSITY_ACTION_STREAK_THRESHOLD = 2
+DIVERSITY_COOLDOWN_CYCLES = 1
+DIVERSITY_PERIODIC_FORCE_INTERVAL = 4
+SAME_STATE_SKIP_THRESHOLD = 2
+SEMI_BLUFF_MAX_PER_STREET = 2
 NO_TABLE_RECOVERY_TRIGGER_CYCLES = 5
 NO_TABLE_RECOVERY_MAX_WINDOWS = 4
 
@@ -793,6 +795,8 @@ def decide_action(
                 return Decision("fold", 0.0, "draw_fold_low_equity", equity, spr, pot_odds, position)
             if equity < max(draw_defend_threshold, 0.45):
                 return Decision("call", to_call_bb, "draw_call_controlled_line", equity, spr, pot_odds, position)
+        if to_call_bb > 0:
+            return Decision("call", to_call_bb, "draw_call_controlled_line", equity, spr, pot_odds, position)
         semi_profile = "merged" if strong_draw else "semi"
         semi_size = _solver_raise_size(pot_bb, effective_stack_bb, effective_spr, position, semi_profile, preflop=False)
         return Decision(postflop_aggressive_action, semi_size, "aggressive_draw_semi_bluff", equity, spr, pot_odds, position)
@@ -1075,6 +1079,9 @@ def main():
     interrupted = False
     table_consistency_states: dict[int, TableConsistencyState] = {}
     table_diversity_states: dict[int, TableActionDiversityState] = {}
+    table_last_state: dict[int, tuple[str, ...]] = {}
+    table_same_state_count: dict[int, int] = {}
+    table_semi_bluff_count: dict[int, int] = {}
     no_table_streak = 0
     no_table_cycles = 0
     active_table_cycles = 0
@@ -1215,7 +1222,28 @@ def main():
                     is_active = bool(window_info.get("is_active", False))
                     if is_active:
                         tracked_cycle_stack_bb = stack_bb
-                    if is_active and not action_attempted_this_cycle:
+
+                    # Same-state skip: non ri-cliccare se nulla è cambiato
+                    current_state_key = _build_diversity_state_key(hole_cards, board_cards)
+                    prev_state = table_last_state.get(table_index)
+                    if current_state_key == prev_state:
+                        table_same_state_count[table_index] = table_same_state_count.get(table_index, 0) + 1
+                    else:
+                        table_same_state_count[table_index] = 0
+                        table_semi_bluff_count[table_index] = 0
+                    table_last_state[table_index] = current_state_key
+
+                    # Cap semi-bluff ripetuti sulla stessa street
+                    if decision.reason == "aggressive_draw_semi_bluff":
+                        table_semi_bluff_count[table_index] = table_semi_bluff_count.get(table_index, 0) + 1
+                        if table_semi_bluff_count[table_index] > SEMI_BLUFF_MAX_PER_STREET:
+                            if to_call_bb > 0:
+                                decision = _clone_decision(decision, "call", to_call_bb, "semi_bluff_capped_call")
+                            else:
+                                decision = _clone_decision(decision, "check", 0.0, "semi_bluff_capped_check")
+
+                    skip_action = table_same_state_count.get(table_index, 0) >= SAME_STATE_SKIP_THRESHOLD
+                    if is_active and not action_attempted_this_cycle and not skip_action:
                         action_attempted_this_cycle = _execute_single_cycle_action(window_info, decision)
 
                     active_mark = "ACTIVE" if is_active else "PASSIVE"
