@@ -291,7 +291,8 @@ def _hole_preflop_score(hole_cards: list[str]) -> float:
     hi, lo = max(r1, r2), min(r1, r2)
     pair = r1 == r2
     suited = s1 == s2
-    connected = abs(r1 - r2) <= 1
+    gap = hi - lo
+    connected = gap <= 1
 
     score = (hi + lo) / 28.0
     if pair:
@@ -302,7 +303,15 @@ def _hole_preflop_score(hole_cards: list[str]) -> float:
         score += 0.06
     if hi >= 13 and lo >= 10:
         score += 0.08
-    return min(1.0, round(score, 3))
+    # Penalità per mani gapped e basse (trash hands)
+    if not pair:
+        if gap >= 4:
+            score -= 0.12
+        elif gap >= 3:
+            score -= 0.06
+    if not pair and hi <= 9 and lo <= 7 and not suited and not connected:
+        score -= 0.10
+    return min(1.0, max(0.0, round(score, 3)))
 
 
 def _estimate_equity(hole_cards: list[str], board_cards: list[str], hand_info: dict | None = None) -> float:
