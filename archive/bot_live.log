@@ -1,0 +1,1767 @@
+🚀 XANDER BOT v2.7 – GTO RANGE ENGINE
+   Modo: INFINITO | SimMode: 0 | Tavoli: 1
+   VPIP teorico: 21.4% | Target: 18-24% | Delay: 0.6s
+   Report ogni 300 mani
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[    1] BTN | 4s As (A4s ) | Eq: 59.3% | PO:30.8% | ▶ RAISE | P/L: +3.5BB | VPIP:100.0%
+[    2] BB  | 7c Qc (Q7s ) | Eq: 49.7% | PO:23.3% | ▶ CALL  | P/L: -2.0BB | VPIP:100.0%
+[    3] UTG | Ah Jc (AJo ) | Eq: 57.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 66.7%
+[    4] BB  | Kh 8d (K8o ) | Eq: 55.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 50.0%
+[    5] CO  | 6h 4s (64o ) | Eq: 35.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 40.0%
+[    6] HJ  | 4c 9c (94s ) | Eq: 44.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 33.3%
+[    7] UTG | 9d Tc (T9o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[    8] BTN | 7h 6s (76o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[    9] BTN | 7h Ah (A7s ) | Eq: 57.9% | PO:26.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 33.3%
+[   10] BB  | Jc 9h (J9o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.0%
+[   11] UTG | 6h 3s (63o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.3%
+[   12] BB  | 6d Kh (K6o ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[   13] CO  | 4d Jh (J4o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.1%
+[   14] CO  | 8c Js (J8o ) | Eq: 51.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[   15] SB  | Kd Qd (KQs ) | Eq: 59.5% | PO:33.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 26.7%
+[   16] BTN | 4d 3d (43s ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[   17] BB  | 3c 5s (53o ) | Eq: 35.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.5%
+[   18] CO  | 9h 6c (96o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[   19] SB  | Kd Ac (AKo ) | Eq: 66.9% | PO:18.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 26.3%
+[   20] HJ  | 9c 3h (93o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[   21] CO  | Kd 7d (K7s ) | Eq: 52.8% | PO:18.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 28.6%
+[   22] HJ  | 3s 3c (33  ) | Eq: 50.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.3%
+[   23] UTG | 7h 2c (72o ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.1%
+[   24] BTN | 9s 9h (99  ) | Eq: 70.1% | PO:30.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 29.2%
+[   25] HJ  | Qd 4c (Q4o ) | Eq: 44.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.0%
+[   26] BB  | 3s 6d (63o ) | Eq: 33.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.9%
+[   27] CO  | Ks Jh (KJo ) | Eq: 55.0% | PO:18.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 29.6%
+[   28] SB  | Jc 9d (J9o ) | Eq: 53.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[   29] SB  | 2c 5d (52o ) | Eq: 28.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.6%
+[   30] HJ  | 8d 6s (86o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.7%
+[   31] SB  | Ts Kc (KTo ) | Eq: 52.0% | PO:27.7% | ▶ CALL  | P/L: -2.0BB | VPIP: 29.0%
+[   32] SB  | 6s 7s (76s ) | Eq: 47.2% | PO:18.6% | ▶ CALL  | P/L: +2.0BB | VPIP: 31.2%
+[   33] SB  | 4d Qh (Q4o ) | Eq: 48.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.3%
+[   34] HJ  | 4c 5d (54o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.4%
+[   35] UTG | 4s Ts (T4s ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[   36] BB  | Qc Ad (AQo ) | Eq: 61.8% | PO:28.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 30.6%
+[   37] HJ  | Ac 8d (A8o ) | Eq: 58.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.7%
+[   38] BTN | 4c Ac (A4s ) | Eq: 59.6% | PO:20.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 31.6%
+[   39] UTG | 7d 4c (74o ) | Eq: 34.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.8%
+[   40] BTN | Jh Qc (QJo ) | Eq: 53.2% | PO:29.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 32.5%
+[   41] BB  | Ah 2s (A2o ) | Eq: 54.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.7%
+[   42] UTG | 8c 8s (88  ) | Eq: 67.2% | PO:32.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 33.3%
+[   43] CO  | Jc Kh (KJo ) | Eq: 55.4% | PO:28.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 34.9%
+[   44] CO  | 2h 8s (82o ) | Eq: 32.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 34.1%
+[   45] CO  | Jd 7d (J7s ) | Eq: 52.2% | PO:19.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 35.6%
+[   46] HJ  | 6d 8c (86o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 34.8%
+[   47] BTN | 2c 6h (62o ) | Eq: 31.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 34.0%
+[   48] UTG | Jd 4s (J4o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 33.3%
+[   49] HJ  | 4c Qd (Q4o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 32.7%
+[   50] CO  | 9d 4c (94o ) | Eq: 36.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 32.0%
+[   51] CO  | 8h 6h (86s ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.4%
+[   52] HJ  | Kd 7h (K7o ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.8%
+[   53] CO  | Ks 7d (K7o ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.2%
+[   54] SB  | As Kh (AKo ) | Eq: 66.2% | PO:25.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 31.5%
+[   55] CO  | 2d 6c (62o ) | Eq: 30.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.9%
+[   56] BTN | 6s 4d (64o ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.4%
+[   57] BB  | Ad Jh (AJo ) | Eq: 56.7% | PO:26.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 31.6%
+[   58] BTN | Ts Qc (QTo ) | Eq: 56.5% | PO:29.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 32.8%
+[   59] BB  | 4d Kd (K4s ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 32.2%
+[   60] BTN | Jd 4c (J4o ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.7%
+[   61] BTN | 3h 2s (32o ) | Eq: 31.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.1%
+[   62] HJ  | 9d 6c (96o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.6%
+[   63] SB  | 9c 2h (92o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.2%
+[   64] SB  | Jd Kh (KJo ) | Eq: 52.8% | PO:31.3% | ▶ CALL  | P/L: -2.0BB | VPIP: 31.2%
+[   65] HJ  | Ac Kd (AKo ) | Eq: 63.9% | PO:18.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 32.3%
+[   66] CO  | 3s 6c (63o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.8%
+[   67] CO  | 7d Qh (Q7o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 31.3%
+[   68] SB  | Qs 2c (Q2o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.9%
+[   69] SB  | Qh 7c (Q7o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.4%
+[   70] BB  | 9h Kc (K9o ) | Eq: 53.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.0%
+[   71] BB  | Qs Qc (QQ  ) | Eq: 81.7% | PO:24.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 31.0%
+[   72] CO  | Th 5h (T5s ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.6%
+[   73] HJ  | 2c Tc (T2s ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.1%
+[   74] BTN | 2d Js (J2o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.7%
+[   75] CO  | Ks 6s (K6s ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.3%
+[   76] BTN | 4d 6h (64o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.9%
+[   77] SB  | 3d 4s (43o ) | Eq: 30.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[   78] BB  | Ah 2d (A2o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.2%
+[   79] HJ  | 5c 5h (55  ) | Eq: 58.9% | PO:24.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 29.1%
+[   80] SB  | 5h 6s (65o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.7%
+[   81] SB  | Kc Kd (KK  ) | Eq: 85.0% | PO:29.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 29.6%
+[   82] BB  | 6c 8c (86s ) | Eq: 43.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.3%
+[   83] BTN | 3c Kh (K3o ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.9%
+[   84] UTG | 4d 8d (84s ) | Eq: 38.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[   85] BB  | 7c Js (J7o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.2%
+[   86] BTN | Qd 7d (Q7s ) | Eq: 49.4% | PO:23.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 29.1%
+[   87] CO  | 4h Js (J4o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.7%
+[   88] SB  | 2c 9s (92o ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.4%
+[   89] BTN | 2s 2h (22  ) | Eq: 50.9% | PO:33.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 29.2%
+[   90] UTG | 7h 2c (72o ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.9%
+[   91] BTN | As Kd (AKo ) | Eq: 62.0% | PO:19.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 29.7%
+[   92] BTN | 7d Qs (Q7o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.3%
+[   93] BB  | 6s Ac (A6o ) | Eq: 58.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.0%
+[   94] BB  | Js Qh (QJo ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.7%
+[   95] SB  | Jd 7d (J7s ) | Eq: 52.6% | PO:29.4% | ▶ CALL  | P/L: +2.0BB | VPIP: 29.5%
+[   96] CO  | 7d Qd (Q7s ) | Eq: 54.0% | PO:25.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 30.2%
+[   97] CO  | 7s 8h (87o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.9%
+[   98] CO  | Ac 2s (A2o ) | Eq: 53.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.6%
+[   99] UTG | Ts 9s (T9s ) | Eq: 52.4% | PO:28.7% | ▶ CALL  | P/L: +2.0BB | VPIP: 30.3%
+[  100] UTG | 5s Kd (K5o ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 30.0%
+[  101] BTN | 3d 4h (43o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.7%
+[  102] HJ  | 6h 9s (96o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.4%
+[  103] BB  | Jc 3h (J3o ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.1%
+[  104] UTG | 9c 5s (95o ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.8%
+[  105] UTG | 7h 2d (72o ) | Eq: 31.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[  106] SB  | 7c 7s (77  ) | Eq: 60.7% | PO:18.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 29.2%
+[  107] BB  | 7s 3s (73s ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 29.0%
+[  108] CO  | Js 2d (J2o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.7%
+[  109] CO  | 6s 9h (96o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.4%
+[  110] HJ  | 3s 6s (63s ) | Eq: 33.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.2%
+[  111] BB  | Td 3c (T3o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.9%
+[  112] SB  | Th 9h (T9s ) | Eq: 52.7% | PO:31.1% | ▶ CALL  | P/L: -2.0BB | VPIP: 28.6%
+[  113] UTG | Kd Js (KJo ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.3%
+[  114] BB  | 3c 8h (83o ) | Eq: 38.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.1%
+[  115] BTN | Jc Jd (JJ  ) | Eq: 73.4% | PO:19.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 28.7%
+[  116] CO  | Kh 2d (K2o ) | Eq: 45.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.4%
+[  117] HJ  | 3c Ah (A3o ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.2%
+[  118] CO  | 6h 6s (66  ) | Eq: 62.2% | PO:21.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 28.8%
+[  119] UTG | 9d 6s (96o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.6%
+[  120] SB  | 5h 2s (52o ) | Eq: 27.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.3%
+[  121] UTG | 4s 6d (64o ) | Eq: 36.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.1%
+[  122] UTG | Th Kh (KTs ) | Eq: 56.5% | PO:27.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 28.7%
+[  123] CO  | Tc 8s (T8o ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.5%
+[  124] BB  | Qs 7d (Q7o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.2%
+[  125] UTG | 3d Tc (T3o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 28.0%
+[  126] CO  | 5c 2h (52o ) | Eq: 31.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.8%
+[  127] CO  | 6d Qc (Q6o ) | Eq: 44.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.6%
+[  128] BTN | 3h Jc (J3o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.3%
+[  129] CO  | 6s Kh (K6o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 27.1%
+[  130] BB  | 5s 6h (65o ) | Eq: 41.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.9%
+[  131] HJ  | 7c Jd (J7o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.7%
+[  132] UTG | 8s 3s (83s ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.5%
+[  133] CO  | 8d Ks (K8o ) | Eq: 52.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.3%
+[  134] HJ  | 9d Kc (K9o ) | Eq: 55.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.1%
+[  135] BB  | 8d 5d (85s ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.9%
+[  136] HJ  | Ah Qh (AQs ) | Eq: 69.1% | PO:28.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 26.5%
+[  137] BB  | 7s 8s (87s ) | Eq: 48.9% | PO:29.2% | ▶ CALL  | P/L: -2.0BB | VPIP: 27.0%
+[  138] CO  | 2d 6h (62o ) | Eq: 33.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.8%
+[  139] UTG | 3s 4c (43o ) | Eq: 31.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.6%
+[  140] CO  | 8s 6c (86o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.4%
+[  141] BB  | Qh 5s (Q5o ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.2%
+[  142] CO  | 5h 9s (95o ) | Eq: 40.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.1%
+[  143] UTG | Th 7c (T7o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.9%
+[  144] HJ  | 5d 6d (65s ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  145] HJ  | 3d 5d (53s ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  146] CO  | Qs 4c (Q4o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  147] BB  | 9d 3s (93o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  148] CO  | Ad 4c (A4o ) | Eq: 56.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  149] BTN | 9d Kh (K9o ) | Eq: 55.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  150] SB  | 2c Qd (Q2o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  151] SB  | 4s Qh (Q4o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  152] HJ  | 2s 2h (22  ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  153] BTN | Qd Qc (QQ  ) | Eq: 81.2% | PO:26.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.8%
+[  154] BTN | 5s Tc (T5o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  155] BTN | Js 7h (J7o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  156] SB  | 3d Tc (T3o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  157] CO  | Qs 8c (Q8o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  158] BB  | 3c 6d (63o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  159] BB  | 3h 2h (32s ) | Eq: 30.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.9%
+[  160] UTG | Tc Ks (KTo ) | Eq: 57.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.8%
+[  161] SB  | 4s 8c (84o ) | Eq: 34.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.6%
+[  162] BTN | Ac 6c (A6s ) | Eq: 59.0% | PO:18.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 24.1%
+[  163] CO  | Ts 6d (T6o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.9%
+[  164] UTG | 4d 6d (64s ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.8%
+[  165] HJ  | Kd 6d (K6s ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.6%
+[  166] BTN | Tc Jc (JTs ) | Eq: 56.0% | PO:26.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.1%
+[  167] UTG | Qh 4d (Q4o ) | Eq: 49.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  168] CO  | 6h 5h (65s ) | Eq: 40.7% | PO:29.2% | ▶ CALL  | P/L: -2.0BB | VPIP: 24.4%
+[  169] CO  | As Qh (AQo ) | Eq: 59.9% | PO:20.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 24.9%
+[  170] HJ  | 6h 9s (96o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  171] SB  | Jc 4d (J4o ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  172] HJ  | 5d 8c (85o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  173] CO  | Jd 2d (J2s ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  174] BB  | Tc 6s (T6o ) | Eq: 44.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  175] BTN | Ad 2d (A2s ) | Eq: 57.2% | PO:30.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 24.6%
+[  176] HJ  | Jh 2h (J2s ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  177] BB  | 5s Qs (Q5s ) | Eq: 51.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  178] BB  | 3h Ah (A3s ) | Eq: 56.7% | PO:34.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.7%
+[  179] HJ  | 8d 9s (98o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  180] BB  | 6h Kh (K6s ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  181] UTG | Td 5s (T5o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  182] BTN | 3c 4h (43o ) | Eq: 31.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  183] HJ  | 4h Js (J4o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  184] BB  | Qs Ad (AQo ) | Eq: 58.7% | PO:23.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.5%
+[  185] BB  | Ad Ts (ATo ) | Eq: 60.7% | PO:28.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.9%
+[  186] SB  | 3d 3c (33  ) | Eq: 53.5% | PO:25.0% | ▶ CALL  | P/L: +2.0BB | VPIP: 25.3%
+[  187] BB  | Qc Kd (KQo ) | Eq: 57.6% | PO:30.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.7%
+[  188] SB  | Ts 6h (T6o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  189] BTN | 9h 8c (98o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  190] BTN | 4c 3c (43s ) | Eq: 37.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  191] HJ  | Kh 5d (K5o ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  192] UTG | 9c 3d (93o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  193] BTN | Tc Qh (QTo ) | Eq: 53.8% | PO:27.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.4%
+[  194] CO  | 4d 7h (74o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  195] BB  | As 8s (A8s ) | Eq: 60.6% | PO:25.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.6%
+[  196] BB  | 6h 5c (65o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  197] UTG | 3h 3d (33  ) | Eq: 54.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  198] CO  | 6d Kc (K6o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  199] UTG | Jh Kh (KJs ) | Eq: 57.1% | PO:22.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.6%
+[  200] HJ  | 7d 7c (77  ) | Eq: 67.2% | PO:24.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 26.0%
+[  201] HJ  | As Ac (AA  ) | Eq: 81.0% | PO:26.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 26.4%
+[  202] BTN | 2s 3s (32s ) | Eq: 34.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.2%
+[  203] HJ  | 6h Qc (Q6o ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.1%
+[  204] BB  | Ac 9h (A9o ) | Eq: 59.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.0%
+[  205] UTG | As Jd (AJo ) | Eq: 58.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.9%
+[  206] HJ  | 8c 4d (84o ) | Eq: 39.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  207] HJ  | 8s Ts (T8s ) | Eq: 52.9% | PO:29.4% | ▶ CALL  | P/L: -2.0BB | VPIP: 26.1%
+[  208] UTG | As Tc (ATo ) | Eq: 61.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.0%
+[  209] BTN | 3s 9s (93s ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.8%
+[  210] BTN | Qd Ah (AQo ) | Eq: 64.0% | PO:31.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 26.2%
+[  211] UTG | Qc 3d (Q3o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 26.1%
+[  212] HJ  | 8d 4h (84o ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.9%
+[  213] CO  | 8c 5s (85o ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.8%
+[  214] BTN | 2s Qc (Q2o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  215] UTG | 9h Kh (K9s ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  216] BB  | 9d 2c (92o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  217] SB  | 7d 2s (72o ) | Eq: 31.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  218] SB  | 8h Kd (K8o ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  219] UTG | 3c Qh (Q3o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  220] HJ  | 7d 8h (87o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  221] HJ  | Jd Ad (AJs ) | Eq: 65.5% | PO:30.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.3%
+[  222] BB  | 3h 3d (33  ) | Eq: 53.1% | PO:33.0% | ▶ CALL  | P/L: -2.0BB | VPIP: 25.7%
+[  223] CO  | As 3c (A3o ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  224] UTG | As 2c (A2o ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  225] CO  | 7d 5h (75o ) | Eq: 36.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  226] CO  | 5s Th (T5o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  227] BB  | 5h 6d (65o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  228] SB  | Ah 4c (A4o ) | Eq: 52.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  229] BTN | Qd 9s (Q9o ) | Eq: 52.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  230] UTG | 7d 2h (72o ) | Eq: 37.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  231] BTN | Qc As (AQo ) | Eq: 61.1% | PO:27.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.1%
+[  232] HJ  | 3s 6d (63o ) | Eq: 35.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  233] HJ  | 2c Ac (A2s ) | Eq: 54.3% | PO:33.4% | ▶ CALL  | P/L: -2.0BB | VPIP: 25.3%
+[  234] SB  | Th 8d (T8o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  235] SB  | Qh Th (QTs ) | Eq: 57.9% | PO:18.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.5%
+[  236] BTN | Qs 8d (Q8o ) | Eq: 53.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  237] UTG | 7d 7s (77  ) | Eq: 62.2% | PO:18.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.7%
+[  238] UTG | 4s 9s (94s ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  239] BB  | Kh 2d (K2o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  240] BB  | 2d 4h (42o ) | Eq: 29.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  241] SB  | 6h 6d (66  ) | Eq: 63.7% | PO:34.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.7%
+[  242] BB  | 6c Qd (Q6o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  243] CO  | Ks 9d (K9o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  244] BTN | 4c Td (T4o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  245] CO  | Tc 8d (T8o ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  246] HJ  | Tc 3d (T3o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  247] HJ  | 2c 8h (82o ) | Eq: 35.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  248] BTN | 6s 3c (63o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  249] CO  | Kc 6h (K6o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  250] UTG | Ks 5s (K5s ) | Eq: 54.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  251] BTN | 3s Kd (K3o ) | Eq: 45.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  252] SB  | 6d 3s (63o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  253] BTN | 6h 8h (86s ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  254] HJ  | 3c Js (J3o ) | Eq: 41.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  255] BB  | 4s Ad (A4o ) | Eq: 56.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  256] UTG | 4d Qh (Q4o ) | Eq: 48.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  257] CO  | 3s 2c (32o ) | Eq: 33.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  258] CO  | 7h 5h (75s ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  259] CO  | 3h Js (J3o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.9%
+[  260] HJ  | Jc Ad (AJo ) | Eq: 60.7% | PO:32.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.2%
+[  261] BTN | 3s As (A3s ) | Eq: 55.3% | PO:32.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.5%
+[  262] BTN | Jc 5h (J5o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  263] BTN | 7c 6c (76s ) | Eq: 45.5% | PO:25.0% | ▶ CALL  | P/L: +2.0BB | VPIP: 24.7%
+[  264] UTG | 9s Tc (T9o ) | Eq: 52.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  265] CO  | Th Ks (KTo ) | Eq: 53.8% | PO:20.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.9%
+[  266] HJ  | As 8c (A8o ) | Eq: 55.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  267] HJ  | Ts 7s (T7s ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  268] CO  | Qs Td (QTo ) | Eq: 53.3% | PO:25.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.0%
+[  269] SB  | Kh Js (KJo ) | Eq: 55.6% | PO:20.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.3%
+[  270] CO  | 5d 9d (95s ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  271] UTG | 9h Kh (K9s ) | Eq: 53.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  272] HJ  | Qc 9d (Q9o ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  273] CO  | Qd 8h (Q8o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  274] HJ  | Ac Qh (AQo ) | Eq: 62.5% | PO:32.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.2%
+[  275] BTN | Ah 2s (A2o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  276] SB  | Ac 3c (A3s ) | Eq: 55.4% | PO:33.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.4%
+[  277] SB  | 6d 6c (66  ) | Eq: 62.1% | PO:30.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.6%
+[  278] SB  | 4s 4c (44  ) | Eq: 56.4% | PO:25.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.9%
+[  279] BTN | Tc 5c (T5s ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.8%
+[  280] SB  | 4h 7h (74s ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  281] BTN | 6s 3s (63s ) | Eq: 40.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  282] UTG | Td 5s (T5o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  283] BTN | Jh 2s (J2o ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  284] CO  | 5h 9h (95s ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  285] CO  | 5d Qc (Q5o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  286] UTG | Td 7s (T7o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  287] BTN | Td Kd (KTs ) | Eq: 52.7% | PO:33.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.4%
+[  288] UTG | 5c 8s (85o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  289] HJ  | Js Th (JTo ) | Eq: 52.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  290] UTG | 9s Jd (J9o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  291] CO  | 3c As (A3o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  292] BTN | 2h 6s (62o ) | Eq: 34.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  293] UTG | 9h 5s (95o ) | Eq: 39.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  294] HJ  | 9s 9h (99  ) | Eq: 74.2% | PO:32.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.2%
+[  295] CO  | Js 8s (J8s ) | Eq: 49.0% | PO:27.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.4%
+[  296] BTN | 7d Kd (K7s ) | Eq: 51.2% | PO:20.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.7%
+[  297] HJ  | Qd 7d (Q7s ) | Eq: 54.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  298] CO  | Qc 8s (Q8o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  299] UTG | As 5h (A5o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  300] BB  | 3h Qs (Q3o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT @ 300 MANI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    300
+  VPIP medio:      25.3% ⚠️  (teorico: 21.4%)
+  Profit netto:    +66.0 BB
+  BB/100 mani:     +22.0
+  Azioni:  Raise: 62  |  Call: 14  |  Fold: 224
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[  301] UTG | 7d Kc (K7o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  302] BB  | 9c 5d (95o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  303] SB  | 7c Qd (Q7o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  304] SB  | 4h 4c (44  ) | Eq: 56.7% | PO:24.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.3%
+[  305] SB  | Ah 8h (A8s ) | Eq: 56.5% | PO:20.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.6%
+[  306] UTG | Kd 9d (K9s ) | Eq: 59.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  307] BTN | 4c 7h (74o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  308] HJ  | 6h 6d (66  ) | Eq: 58.2% | PO:20.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.6%
+[  309] SB  | Ts 8d (T8o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  310] SB  | Tc 3c (T3s ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  311] CO  | 5h 6s (65o ) | Eq: 42.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  312] CO  | 3c Jc (J3s ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  313] UTG | 5h 4s (54o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  314] BB  | 9s 2s (92s ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  315] BTN | 8h Js (J8o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  316] HJ  | 3h 5d (53o ) | Eq: 31.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  317] SB  | 7c 3h (73o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  318] CO  | 9d Qc (Q9o ) | Eq: 52.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  319] BTN | Tc 4s (T4o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  320] BB  | Ts Ad (ATo ) | Eq: 61.7% | PO:25.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.0%
+[  321] UTG | 3s 5h (53o ) | Eq: 31.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  322] SB  | 6c 7d (76o ) | Eq: 44.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  323] SB  | 9d 4s (94o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  324] BTN | Kc 3s (K3o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  325] SB  | 4d Qh (Q4o ) | Eq: 41.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  326] CO  | 3s 6d (63o ) | Eq: 30.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  327] CO  | Kh Qd (KQo ) | Eq: 57.6% | PO:26.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.8%
+[  328] UTG | Kh As (AKo ) | Eq: 66.8% | PO:21.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.0%
+[  329] BB  | 5s 5d (55  ) | Eq: 57.5% | PO:34.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.2%
+[  330] BTN | Th Ah (ATs ) | Eq: 61.3% | PO:33.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.5%
+[  331] BTN | 4s 5s (54s ) | Eq: 37.8% | PO:18.2% | ▶ CALL  | P/L: -2.0BB | VPIP: 25.7%
+[  332] BTN | 2h 9d (92o ) | Eq: 34.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  333] BB  | 9d 8s (98o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  334] SB  | 9c 9s (99  ) | Eq: 72.1% | PO:32.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 25.7%
+[  335] BB  | 4d Ts (T4o ) | Eq: 45.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  336] BB  | As 3c (A3o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  337] BTN | Kh Ks (KK  ) | Eq: 85.0% | PO:34.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.8%
+[  338] UTG | 2h 6d (62o ) | Eq: 32.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  339] CO  | Qh 9c (Q9o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  340] SB  | Qs 4h (Q4o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  341] CO  | Ts Qc (QTo ) | Eq: 51.2% | PO:20.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.8%
+[  342] BB  | 8h 7s (87o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  343] BB  | 4c 7h (74o ) | Eq: 38.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.7%
+[  344] SB  | 9h Js (J9o ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.6%
+[  345] SB  | 9s 5c (95o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.5%
+[  346] HJ  | 5d 7d (75s ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  347] UTG | 4h Jc (J4o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.4%
+[  348] SB  | 3h 6d (63o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.3%
+[  349] SB  | 8c 2s (82o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.2%
+[  350] SB  | 2s 3d (32o ) | Eq: 32.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  351] UTG | 4d 6c (64o ) | Eq: 35.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.1%
+[  352] BB  | 6s Jd (J6o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 25.0%
+[  353] SB  | 6c Th (T6o ) | Eq: 43.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  354] UTG | Jh 9s (J9o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  355] BTN | 5d Th (T5o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  356] SB  | 7h 8c (87o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  357] BB  | 2s Qd (Q2o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  358] CO  | 7c 9d (97o ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  359] SB  | Ts 4c (T4o ) | Eq: 38.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  360] CO  | 3d Tc (T3o ) | Eq: 39.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  361] UTG | 6h 7d (76o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  362] HJ  | 5d Ad (A5s ) | Eq: 54.1% | PO:30.8% | ▶ CALL  | P/L: -2.0BB | VPIP: 24.6%
+[  363] BTN | Th Qh (QTs ) | Eq: 56.4% | PO:26.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 24.8%
+[  364] HJ  | 8d 8h (88  ) | Eq: 68.9% | PO:20.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 25.0%
+[  365] HJ  | 6s 2c (62o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  366] CO  | Tc 6d (T6o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.9%
+[  367] BB  | 6d Qh (Q6o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.8%
+[  368] CO  | Ac 6h (A6o ) | Eq: 55.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  369] BB  | 6d 7s (76o ) | Eq: 38.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  370] BTN | 7s 2s (72s ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  371] CO  | 6h 3c (63o ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  372] HJ  | As Ad (AA  ) | Eq: 83.3% | PO:22.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.7%
+[  373] HJ  | 9d 4d (94s ) | Eq: 45.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.7%
+[  374] UTG | 6d Td (T6s ) | Eq: 49.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.6%
+[  375] BB  | Jh 4h (J4s ) | Eq: 50.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  376] SB  | 5c Ah (A5o ) | Eq: 57.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.5%
+[  377] UTG | Jc Qh (QJo ) | Eq: 53.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  378] SB  | 4c 2h (42o ) | Eq: 29.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  379] BB  | Jc 4h (J4o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  380] BTN | 5s 8c (85o ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  381] BB  | Tc 6c (T6s ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  382] UTG | Kh Qs (KQo ) | Eq: 59.5% | PO:20.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 24.3%
+[  383] SB  | 5s Td (T5o ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  384] BTN | Qc Kh (KQo ) | Eq: 58.3% | PO:21.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.5%
+[  385] CO  | 6d Jc (J6o ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  386] HJ  | 3s 4d (43o ) | Eq: 37.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  387] CO  | 7s Kc (K7o ) | Eq: 53.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  388] CO  | 5c 9h (95o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  389] SB  | 2d 3c (32o ) | Eq: 33.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  390] BTN | Kc Kd (KK  ) | Eq: 83.1% | PO:29.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.4%
+[  391] CO  | 8h Kd (K8o ) | Eq: 50.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  392] SB  | Ks 6h (K6o ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  393] SB  | 6d 4h (64o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  394] BB  | 7c Ks (K7o ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  395] CO  | 4d 4h (44  ) | Eq: 52.5% | PO:18.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.3%
+[  396] HJ  | 4s 9d (94o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  397] BB  | Kc Qd (KQo ) | Eq: 59.1% | PO:20.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.4%
+[  398] UTG | Ad Ts (ATo ) | Eq: 59.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  399] BB  | Kc 7d (K7o ) | Eq: 53.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  400] CO  | Js Ah (AJo ) | Eq: 63.6% | PO:27.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.5%
+[  401] SB  | Jd 7s (J7o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  402] UTG | 5d Th (T5o ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.4%
+[  403] BB  | Ac 4h (A4o ) | Eq: 51.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  404] SB  | 6s Qs (Q6s ) | Eq: 53.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.3%
+[  405] BB  | Qs 4c (Q4o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.2%
+[  406] HJ  | 2s Jh (J2o ) | Eq: 40.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  407] CO  | 6s 2h (62o ) | Eq: 30.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  408] SB  | 3d Th (T3o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  409] HJ  | Ac Tc (ATs ) | Eq: 59.0% | PO:31.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 24.2%
+[  410] SB  | 4s Qh (Q4o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  411] UTG | 9h Tc (T9o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.1%
+[  412] HJ  | Ah 3d (A3o ) | Eq: 55.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  413] UTG | 3s Js (J3s ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 24.0%
+[  414] BB  | 2d Td (T2s ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.9%
+[  415] BB  | 5d 2h (52o ) | Eq: 28.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.9%
+[  416] CO  | 7d 2h (72o ) | Eq: 30.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.8%
+[  417] SB  | Jd 9h (J9o ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.7%
+[  418] UTG | 2c 5h (52o ) | Eq: 33.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.7%
+[  419] UTG | 3c 7h (73o ) | Eq: 33.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.6%
+[  420] CO  | 8s 9h (98o ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.6%
+[  421] BB  | Qc 4s (Q4o ) | Eq: 44.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.5%
+[  422] UTG | Qh 6d (Q6o ) | Eq: 48.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.5%
+[  423] BB  | Kc Qs (KQo ) | Eq: 58.6% | PO:32.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.6%
+[  424] BB  | Jd 4c (J4o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.6%
+[  425] SB  | Kd 6s (K6o ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.5%
+[  426] BB  | Jc 6d (J6o ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.5%
+[  427] CO  | 5h Ts (T5o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.4%
+[  428] UTG | As 8c (A8o ) | Eq: 54.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.4%
+[  429] HJ  | Kd Jc (KJo ) | Eq: 59.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.3%
+[  430] SB  | 2h Kd (K2o ) | Eq: 44.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.3%
+[  431] UTG | 9c Ts (T9o ) | Eq: 46.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.2%
+[  432] CO  | 5c 3c (53s ) | Eq: 34.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.1%
+[  433] HJ  | 6d As (A6o ) | Eq: 58.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.1%
+[  434] CO  | 3h Jc (J3o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  435] CO  | 8c 4d (84o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  436] CO  | Kh 5s (K5o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  437] HJ  | 5s Ts (T5s ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  438] SB  | 8d Ah (A8o ) | Eq: 58.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  439] BTN | 8h Tc (T8o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  440] CO  | 9d Th (T9o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  441] HJ  | 6c Qh (Q6o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  442] HJ  | 4d 4c (44  ) | Eq: 56.4% | PO:30.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.9%
+[  443] HJ  | 8d 9h (98o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  444] BB  | 7h 5c (75o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  445] CO  | Ad 6h (A6o ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  446] BTN | Qh 3c (Q3o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  447] BB  | Ks 7s (K7s ) | Eq: 56.3% | PO:27.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  448] CO  | 6s Ts (T6s ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  449] SB  | 9c 7c (97s ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  450] BB  | Ks Jh (KJo ) | Eq: 52.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  451] HJ  | 7d Jc (J7o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  452] HJ  | Ad 8c (A8o ) | Eq: 56.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  453] HJ  | 2c Jc (J2s ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  454] BTN | 3s 6c (63o ) | Eq: 31.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  455] HJ  | 7s 4d (74o ) | Eq: 39.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  456] CO  | Js Qc (QJo ) | Eq: 51.8% | PO:33.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.6%
+[  457] UTG | Qc 4s (Q4o ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  458] HJ  | Td 2h (T2o ) | Eq: 41.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  459] HJ  | 5c 6c (65s ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  460] BB  | 8c Js (J8o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  461] BTN | 9s Jh (J9o ) | Eq: 52.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  462] UTG | As 6s (A6s ) | Eq: 54.7% | PO:23.0% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.5%
+[  463] CO  | 3h Kh (K3s ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  464] BTN | Kd Js (KJo ) | Eq: 58.3% | PO:28.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.6%
+[  465] SB  | 2s 9d (92o ) | Eq: 40.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  466] BTN | Ks Qh (KQo ) | Eq: 61.6% | PO:32.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.7%
+[  467] HJ  | Ts 7d (T7o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  468] UTG | Td Kd (KTs ) | Eq: 55.8% | PO:26.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  469] BTN | 7s 5d (75o ) | Eq: 35.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  470] CO  | Th 9d (T9o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  471] UTG | 3s 4h (43o ) | Eq: 30.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  472] SB  | 9h 2h (92s ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  473] SB  | 9c 9s (99  ) | Eq: 71.5% | PO:32.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.8%
+[  474] HJ  | 7s 2h (72o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  475] BTN | Td 5d (T5s ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  476] CO  | As Jh (AJo ) | Eq: 63.8% | PO:19.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  477] CO  | 9s 9c (99  ) | Eq: 72.6% | PO:25.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.1%
+[  478] UTG | 8d Qc (Q8o ) | Eq: 50.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  479] CO  | As 5c (A5o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  480] HJ  | Td Ah (ATo ) | Eq: 60.1% | PO:31.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 23.1%
+[  481] BTN | Qc Jh (QJo ) | Eq: 54.0% | PO:24.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 23.3%
+[  482] BB  | 9c 4c (94s ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.2%
+[  483] BB  | Js Kh (KJo ) | Eq: 57.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.2%
+[  484] BB  | Th 4d (T4o ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.1%
+[  485] UTG | Kd Tc (KTo ) | Eq: 55.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.1%
+[  486] BTN | 5s Ah (A5o ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  487] BB  | 9d 6c (96o ) | Eq: 41.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  488] UTG | 4h 7c (74o ) | Eq: 35.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  489] UTG | Ks Td (KTo ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  490] BTN | 4d 7d (74s ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  491] SB  | 2c Jh (J2o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  492] HJ  | 9d 2d (92s ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  493] HJ  | Jh 5h (J5s ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  494] HJ  | 4s 9s (94s ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  495] SB  | 5h 5d (55  ) | Eq: 58.2% | PO:33.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.8%
+[  496] SB  | 8s As (A8s ) | Eq: 59.6% | PO:22.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  497] CO  | 6h 8c (86o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  498] UTG | 8d 3c (83o ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  499] UTG | 6d 4h (64o ) | Eq: 36.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  500] HJ  | Ac 9s (A9o ) | Eq: 61.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  501] CO  | Th 8d (T8o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  502] HJ  | 5s Js (J5s ) | Eq: 50.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  503] HJ  | 8c Ks (K8o ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  504] BTN | Jd 3c (J3o ) | Eq: 40.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  505] CO  | Ks As (AKs ) | Eq: 69.1% | PO:22.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.8%
+[  506] SB  | As Kh (AKo ) | Eq: 61.4% | PO:21.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  507] BTN | 7d 9s (97o ) | Eq: 46.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  508] BTN | 2s 5d (52o ) | Eq: 30.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  509] BB  | Kc Ts (KTo ) | Eq: 54.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  510] UTG | 9d 4s (94o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  511] HJ  | Qs 4h (Q4o ) | Eq: 44.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  512] BB  | 7s Th (T7o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  513] BB  | 7c 9s (97o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  514] BB  | Jd 5s (J5o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  515] BTN | Qd 7h (Q7o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  516] UTG | 9d 4c (94o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  517] SB  | Ts 7c (T7o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  518] BB  | As Qs (AQs ) | Eq: 64.7% | PO:34.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.6%
+[  519] BTN | 2d Jh (J2o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  520] HJ  | Ks Qs (KQs ) | Eq: 64.8% | PO:21.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  521] SB  | Td Kd (KTs ) | Eq: 57.3% | PO:25.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  522] HJ  | 7s Qc (Q7o ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  523] BB  | Kc 7s (K7o ) | Eq: 51.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  524] CO  | Qs 4d (Q4o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  525] UTG | 7c 9d (97o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  526] CO  | 9s 4h (94o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  527] BTN | 7h Ac (A7o ) | Eq: 54.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  528] CO  | 5s Ah (A5o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  529] BTN | 9h 9c (99  ) | Eq: 69.2% | PO:21.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  530] UTG | Ac 9c (A9s ) | Eq: 58.3% | PO:25.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  531] HJ  | 3h Ad (A3o ) | Eq: 54.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  532] BB  | 8s 9d (98o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  533] SB  | 6d Ts (T6o ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  534] SB  | 2s 9h (92o ) | Eq: 39.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  535] BTN | 5d 8d (85s ) | Eq: 38.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  536] HJ  | Ts Jc (JTo ) | Eq: 54.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  537] SB  | 9s 6h (96o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  538] BTN | Kc Tc (KTs ) | Eq: 53.4% | PO:19.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  539] CO  | 9h 7h (97s ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  540] HJ  | 7c Ts (T7o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  541] HJ  | Tc Kc (KTs ) | Eq: 58.6% | PO:18.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  542] UTG | 8d 2s (82o ) | Eq: 39.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  543] BB  | 2c Td (T2o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  544] UTG | 4c Ts (T4o ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  545] SB  | 5s Th (T5o ) | Eq: 43.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  546] SB  | Ad 6s (A6o ) | Eq: 53.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  547] HJ  | 3d Qd (Q3s ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  548] UTG | 9s 4d (94o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  549] BB  | 8h 3c (83o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  550] BTN | Kd 7c (K7o ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  551] SB  | 7c 6s (76o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  552] BB  | 9c 8h (98o ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  553] UTG | Ad 2h (A2o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  554] CO  | 8s 9h (98o ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  555] BB  | 5c Qh (Q5o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  556] BB  | 4h Js (J4o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  557] CO  | Td 5s (T5o ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  558] BB  | 6c Td (T6o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  559] CO  | 2d Qc (Q2o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  560] BB  | 9s Kh (K9o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  561] SB  | 7d Kh (K7o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  562] SB  | As 2c (A2o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  563] UTG | 5d 9c (95o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  564] HJ  | 5s 6s (65s ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  565] HJ  | 2d Js (J2o ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  566] HJ  | 4s Qh (Q4o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  567] CO  | 3h Td (T3o ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  568] HJ  | Jh Qh (QJs ) | Eq: 56.3% | PO:33.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.8%
+[  569] BB  | 2h 8c (82o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  570] UTG | 7c 9c (97s ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  571] UTG | 4c 5c (54s ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  572] SB  | Td Ks (KTo ) | Eq: 50.0% | PO:19.8% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.9%
+[  573] UTG | 4s Qc (Q4o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  574] SB  | Ad Kc (AKo ) | Eq: 68.4% | PO:28.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.0%
+[  575] BB  | 4c 4s (44  ) | Eq: 56.4% | PO:28.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.1%
+[  576] SB  | 6c 9s (96o ) | Eq: 45.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  577] BB  | As 5c (A5o ) | Eq: 57.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  578] SB  | Kc 8d (K8o ) | Eq: 52.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  579] BB  | 3d 5h (53o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  580] BTN | 4c Js (J4o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  581] CO  | 5d 3d (53s ) | Eq: 36.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  582] SB  | Ks 4s (K4s ) | Eq: 54.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  583] CO  | Jh Js (JJ  ) | Eq: 77.1% | PO:24.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.0%
+[  584] SB  | 7d Tc (T7o ) | Eq: 45.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  585] BB  | 8d 8c (88  ) | Eq: 65.0% | PO:27.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.1%
+[  586] BB  | Td 4h (T4o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  587] UTG | 4h Qd (Q4o ) | Eq: 46.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  588] HJ  | 9s Js (J9s ) | Eq: 55.9% | PO:28.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.1%
+[  589] HJ  | Kc 3c (K3s ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  590] CO  | 2d Jh (J2o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  591] UTG | 4c 5s (54o ) | Eq: 32.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  592] CO  | Kc 4d (K4o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  593] BB  | Js Jc (JJ  ) | Eq: 75.0% | PO:18.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.1%
+[  594] BB  | 3h 9d (93o ) | Eq: 36.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  595] SB  | 7s 9d (97o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  596] CO  | Th Js (JTo ) | Eq: 54.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  597] CO  | Kc Qd (KQo ) | Eq: 54.9% | PO:24.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.1%
+[  598] HJ  | 9d Ts (T9o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  599] SB  | 3s Qc (Q3o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  600] BB  | 9h Qs (Q9o ) | Eq: 54.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT @ 600 MANI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    600
+  VPIP medio:      22.0% ✅  (teorico: 21.4%)
+  Profit netto:    +107.5 BB
+  BB/100 mani:     +17.9
+  Azioni:  Raise: 114  |  Call: 18  |  Fold: 468
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[  601] BB  | 3c Td (T3o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  602] BB  | 5h Qs (Q5o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  603] CO  | 5d Tc (T5o ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  604] HJ  | 6d Qd (Q6s ) | Eq: 54.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  605] BTN | 6d As (A6o ) | Eq: 57.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  606] CO  | 3s 8h (83o ) | Eq: 39.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  607] UTG | 8h 5h (85s ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  608] UTG | 5h Td (T5o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  609] BTN | 5d 4h (54o ) | Eq: 38.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  610] SB  | 2c 5h (52o ) | Eq: 28.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  611] CO  | Jh 2c (J2o ) | Eq: 38.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  612] SB  | Td 7s (T7o ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  613] BTN | 3d Ad (A3s ) | Eq: 56.7% | PO:18.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[  614] BB  | 9s 6c (96o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  615] BTN | Qh 9s (Q9o ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  616] BB  | 9d 8c (98o ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  617] UTG | Qs Ad (AQo ) | Eq: 65.2% | PO:20.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[  618] HJ  | As 8s (A8s ) | Eq: 64.0% | PO:18.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.8%
+[  619] SB  | 2c 9d (92o ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  620] UTG | As Td (ATo ) | Eq: 56.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  621] BTN | 4s 9d (94o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  622] CO  | 6s Ad (A6o ) | Eq: 59.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  623] SB  | 2c Kc (K2s ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  624] BTN | 2h 2d (22  ) | Eq: 53.1% | PO:20.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.8%
+[  625] BTN | 3h Kc (K3o ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  626] SB  | Ad Ah (AA  ) | Eq: 88.2% | PO:30.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.9%
+[  627] BB  | 9h Jh (J9s ) | Eq: 51.9% | PO:30.6% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.0%
+[  628] CO  | Tc 7s (T7o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  629] CO  | 8h 5c (85o ) | Eq: 38.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  630] BB  | Jh Qd (QJo ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  631] SB  | 9c 9h (99  ) | Eq: 68.1% | PO:26.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.0%
+[  632] CO  | 4c 2s (42o ) | Eq: 32.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  633] BTN | Kc Qc (KQs ) | Eq: 62.3% | PO:24.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.1%
+[  634] CO  | Tc 4s (T4o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  635] HJ  | Qh Td (QTo ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  636] SB  | As 5d (A5o ) | Eq: 57.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  637] BB  | 5s 2s (52s ) | Eq: 32.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  638] BB  | Kh Th (KTs ) | Eq: 56.1% | PO:28.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.1%
+[  639] CO  | 2d As (A2o ) | Eq: 53.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  640] HJ  | As Ks (AKs ) | Eq: 70.7% | PO:19.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.2%
+[  641] BB  | 5c 9s (95o ) | Eq: 40.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  642] BB  | Qh 9h (Q9s ) | Eq: 53.8% | PO:19.6% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.3%
+[  643] HJ  | Jc 9h (J9o ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  644] UTG | 2h 7c (72o ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  645] HJ  | Ts Ah (ATo ) | Eq: 58.1% | PO:25.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.3%
+[  646] SB  | 7c 6s (76o ) | Eq: 38.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  647] BB  | 3h Ks (K3o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  648] SB  | 9h 9d (99  ) | Eq: 66.6% | PO:21.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[  649] SB  | 2s Ac (A2o ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  650] BB  | Ad Th (ATo ) | Eq: 58.6% | PO:31.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.5%
+[  651] HJ  | 2d Kc (K2o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  652] SB  | 9d 8c (98o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  653] SB  | Tc Qh (QTo ) | Eq: 53.1% | PO:24.9% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.5%
+[  654] UTG | Jc Kc (KJs ) | Eq: 61.1% | PO:22.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.6%
+[  655] SB  | As 5c (A5o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  656] UTG | 6d 4c (64o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  657] BB  | 2d 5s (52o ) | Eq: 34.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  658] BTN | Qs 8c (Q8o ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  659] BB  | 8d 5c (85o ) | Eq: 37.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  660] BTN | 2c Qs (Q2o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  661] BB  | 6h Td (T6o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  662] UTG | Ah 9d (A9o ) | Eq: 56.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  663] BB  | 7c 3d (73o ) | Eq: 35.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  664] BB  | 5d 9d (95s ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  665] SB  | 9h 2s (92o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  666] SB  | 6c Kc (K6s ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  667] SB  | Qs Ah (AQo ) | Eq: 62.9% | PO:25.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.3%
+[  668] UTG | 9c 3s (93o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  669] UTG | 6h Ac (A6o ) | Eq: 54.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  670] SB  | 7h Ts (T7o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  671] CO  | Qc Kc (KQs ) | Eq: 63.7% | PO:24.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.4%
+[  672] SB  | 4d Qc (Q4o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  673] SB  | Qs Kd (KQo ) | Eq: 60.9% | PO:28.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.4%
+[  674] HJ  | Th 2h (T2s ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  675] SB  | Td 4c (T4o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  676] BTN | 4c Kd (K4o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  677] UTG | 3c Kc (K3s ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  678] CO  | 9c Kd (K9o ) | Eq: 54.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  679] UTG | Qh Ac (AQo ) | Eq: 62.3% | PO:22.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.4%
+[  680] HJ  | Ts Kc (KTo ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  681] BTN | Ah Qh (AQs ) | Eq: 68.3% | PO:19.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.5%
+[  682] BB  | 3h Ks (K3o ) | Eq: 46.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  683] SB  | Qc 3c (Q3s ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  684] BB  | 9h 8c (98o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  685] BTN | Qd Ah (AQo ) | Eq: 64.3% | PO:34.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.5%
+[  686] CO  | 3c Qd (Q3o ) | Eq: 46.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  687] UTG | 5c 7c (75s ) | Eq: 43.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  688] HJ  | 7d 9d (97s ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  689] SB  | 2c 9d (92o ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  690] CO  | 4s 6d (64o ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  691] BB  | 4d 3d (43s ) | Eq: 33.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  692] BB  | 6d Qh (Q6o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  693] SB  | 6d 6s (66  ) | Eq: 63.3% | PO:28.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[  694] SB  | 6d 4d (64s ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  695] HJ  | 9h Jc (J9o ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  696] BB  | Ts 9s (T9s ) | Eq: 54.5% | PO:33.0% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.4%
+[  697] BB  | 4c 6s (64o ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  698] UTG | Qc 9h (Q9o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  699] UTG | 4h 3h (43s ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  700] BB  | 3d 6s (63o ) | Eq: 33.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  701] BTN | 8c 8h (88  ) | Eq: 67.7% | PO:33.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[  702] CO  | 7s 6c (76o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  703] HJ  | 9d Th (T9o ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  704] BB  | Ts 3s (T3s ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  705] UTG | Kc 2d (K2o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  706] UTG | Jd Ks (KJo ) | Eq: 53.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  707] BB  | Qh 4s (Q4o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  708] HJ  | 4s Ah (A4o ) | Eq: 54.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  709] BTN | 8h 4s (84o ) | Eq: 37.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  710] CO  | 5c 3d (53o ) | Eq: 32.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  711] BB  | Js Jh (JJ  ) | Eq: 77.0% | PO:24.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.2%
+[  712] SB  | 8h Qd (Q8o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  713] BTN | Kc Qc (KQs ) | Eq: 58.0% | PO:28.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.3%
+[  714] CO  | 2h 7d (72o ) | Eq: 32.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  715] SB  | 3h 7s (73o ) | Eq: 34.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  716] BB  | 7s 6h (76o ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  717] UTG | Qc 5h (Q5o ) | Eq: 44.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  718] BTN | 4h Qh (Q4s ) | Eq: 45.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  719] HJ  | As 7d (A7o ) | Eq: 57.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  720] BB  | 5h 8s (85o ) | Eq: 36.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  721] BTN | 5d Jh (J5o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[  722] UTG | 4c 8d (84o ) | Eq: 40.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  723] BB  | 9s 6s (96s ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  724] SB  | 5s Jh (J5o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  725] BB  | 9s 4h (94o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  726] CO  | Js 7h (J7o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  727] BB  | Ac Td (ATo ) | Eq: 58.3% | PO:28.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.0%
+[  728] SB  | 3c Qd (Q3o ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  729] BB  | 4c 6d (64o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  730] HJ  | 2d Ks (K2o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  731] HJ  | 5h 5c (55  ) | Eq: 58.9% | PO:26.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.0%
+[  732] UTG | 8d 6c (86o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  733] BB  | Js 5s (J5s ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  734] CO  | 4h Qs (Q4o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  735] CO  | 8s 6d (86o ) | Eq: 42.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  736] HJ  | Qd Ks (KQo ) | Eq: 58.1% | PO:24.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.0%
+[  737] UTG | Qh 9c (Q9o ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  738] SB  | 3d Jh (J3o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  739] CO  | 4h 7h (74s ) | Eq: 36.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  740] BB  | Ks 9c (K9o ) | Eq: 50.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  741] BB  | Kh 2h (K2s ) | Eq: 49.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  742] CO  | 2h 4s (42o ) | Eq: 32.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  743] HJ  | 7c 3d (73o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  744] BTN | 4h 8s (84o ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  745] CO  | Th 9s (T9o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  746] BB  | 4h Qs (Q4o ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  747] CO  | 5s 9s (95s ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  748] HJ  | Kc 9s (K9o ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  749] UTG | 6c Ad (A6o ) | Eq: 55.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  750] HJ  | Jc 2s (J2o ) | Eq: 43.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  751] CO  | Ad 3d (A3s ) | Eq: 56.6% | PO:28.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[  752] CO  | Ad 2h (A2o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  753] CO  | 7c 2s (72o ) | Eq: 35.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[  754] BTN | Qd Jd (QJs ) | Eq: 57.7% | PO:29.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.8%
+[  755] SB  | 9d 2h (92o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  756] SB  | 8c Ac (A8s ) | Eq: 57.2% | PO:23.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.8%
+[  757] SB  | Kh 8d (K8o ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  758] BB  | Kh 8s (K8o ) | Eq: 53.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  759] HJ  | 5c Jh (J5o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  760] CO  | 6c 2s (62o ) | Eq: 35.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[  761] SB  | 9s 9d (99  ) | Eq: 74.2% | PO:26.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.8%
+[  762] CO  | Ts Ac (ATo ) | Eq: 60.5% | PO:30.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.9%
+[  763] CO  | 8h Jc (J8o ) | Eq: 51.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  764] HJ  | As 7c (A7o ) | Eq: 57.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  765] CO  | 9c 2h (92o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  766] BB  | 6c Ks (K6o ) | Eq: 50.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  767] SB  | 2c 2s (22  ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  768] HJ  | Kh Ks (KK  ) | Eq: 83.7% | PO:25.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.9%
+[  769] CO  | Qc 9s (Q9o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  770] HJ  | 4h 7s (74o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  771] SB  | 5d 2c (52o ) | Eq: 32.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  772] BTN | Js Ah (AJo ) | Eq: 60.1% | PO:22.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.9%
+[  773] BTN | 4h Kh (K4s ) | Eq: 54.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  774] BB  | 3s Qc (Q3o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  775] UTG | 6c Kc (K6s ) | Eq: 50.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  776] SB  | 9s 8s (98s ) | Eq: 48.6% | PO:29.5% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.9%
+[  777] UTG | 9h Js (J9o ) | Eq: 51.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  778] SB  | Td 2c (T2o ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  779] UTG | 7s 9c (97o ) | Eq: 43.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  780] CO  | Ks As (AKs ) | Eq: 64.7% | PO:26.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.9%
+[  781] BTN | 5d 2d (52s ) | Eq: 33.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  782] SB  | Tc 9c (T9s ) | Eq: 51.8% | PO:21.4% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.0%
+[  783] UTG | 2c 3d (32o ) | Eq: 28.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  784] HJ  | 2h 4s (42o ) | Eq: 31.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  785] BB  | 7s 7c (77  ) | Eq: 63.1% | PO:32.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.0%
+[  786] UTG | 4s 6s (64s ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  787] UTG | 2d Qc (Q2o ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  788] BB  | 8h 4c (84o ) | Eq: 37.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[  789] HJ  | 7c Tc (T7s ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  790] BTN | Td 2c (T2o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  791] CO  | 4s Jc (J4o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  792] SB  | 8d Ks (K8o ) | Eq: 55.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  793] CO  | 2h 3h (32s ) | Eq: 32.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[  794] BTN | Qc 7c (Q7s ) | Eq: 52.7% | PO:25.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.9%
+[  795] UTG | 5d 4c (54o ) | Eq: 35.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[  796] HJ  | Ks Ad (AKo ) | Eq: 68.5% | PO:19.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.0%
+[  797] BB  | Ts Ks (KTs ) | Eq: 54.0% | PO:18.9% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.1%
+[  798] SB  | Tc Qs (QTo ) | Eq: 49.9% | PO:20.3% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.2%
+[  799] SB  | 8s Qc (Q8o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  800] HJ  | Kh 9h (K9s ) | Eq: 56.3% | PO:32.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.2%
+[  801] UTG | As Jh (AJo ) | Eq: 57.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  802] CO  | 2c 7c (72s ) | Eq: 34.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  803] SB  | Qs Th (QTo ) | Eq: 52.7% | PO:23.6% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.3%
+[  804] SB  | As Qd (AQo ) | Eq: 60.8% | PO:32.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[  805] CO  | 3d Ad (A3s ) | Eq: 52.7% | PO:29.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.5%
+[  806] BB  | Ts 4c (T4o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  807] CO  | Ad 6s (A6o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  808] HJ  | 9s Jh (J9o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  809] UTG | Tc Ac (ATs ) | Eq: 60.8% | PO:32.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.5%
+[  810] BTN | 9c Ah (A9o ) | Eq: 56.7% | PO:24.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.6%
+[  811] BB  | 7h 3s (73o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  812] SB  | 2c 7c (72s ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  813] BTN | 7h Jc (J7o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  814] CO  | 7c Kd (K7o ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  815] UTG | 6h 6s (66  ) | Eq: 59.3% | PO:24.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.6%
+[  816] HJ  | 4d Ks (K4o ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  817] HJ  | 2s 4s (42s ) | Eq: 34.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  818] HJ  | Kc 4h (K4o ) | Eq: 47.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  819] CO  | 8s 4s (84s ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  820] SB  | Td 4s (T4o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  821] SB  | Qh Ks (KQo ) | Eq: 57.5% | PO:19.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.5%
+[  822] HJ  | Qd Kh (KQo ) | Eq: 54.5% | PO:20.3% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.6%
+[  823] CO  | 7s 7h (77  ) | Eq: 61.2% | PO:27.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.7%
+[  824] CO  | 8c 7s (87o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  825] BTN | Jh Ah (AJs ) | Eq: 59.5% | PO:18.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  826] UTG | 3s 8c (83o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  827] BB  | 4c Jh (J4o ) | Eq: 41.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  828] HJ  | 2h Ah (A2s ) | Eq: 55.7% | PO:31.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.8%
+[  829] HJ  | 5h Js (J5o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  830] CO  | Kh Ad (AKo ) | Eq: 64.1% | PO:23.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  831] HJ  | 3s 4c (43o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  832] HJ  | Th Td (TT  ) | Eq: 76.2% | PO:20.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  833] HJ  | 6c Qs (Q6o ) | Eq: 48.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  834] BTN | 7h Td (T7o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  835] CO  | 5s Ks (K5s ) | Eq: 55.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  836] BB  | Js Th (JTo ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  837] HJ  | Qd Js (QJo ) | Eq: 55.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  838] UTG | Kc 9d (K9o ) | Eq: 54.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  839] BB  | 6d 8s (86o ) | Eq: 40.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  840] HJ  | 3s 3d (33  ) | Eq: 56.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  841] BTN | 6h 7d (76o ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  842] HJ  | Th Kd (KTo ) | Eq: 55.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  843] UTG | Qc 6c (Q6s ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  844] UTG | 9c 8d (98o ) | Eq: 43.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  845] HJ  | Th Td (TT  ) | Eq: 72.2% | PO:23.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.7%
+[  846] UTG | 3c 2s (32o ) | Eq: 26.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  847] UTG | Jc 4d (J4o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  848] BB  | Qd Kc (KQo ) | Eq: 57.6% | PO:26.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  849] SB  | Ad Js (AJo ) | Eq: 62.9% | PO:24.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.9%
+[  850] SB  | 8c 7d (87o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  851] BTN | 2s Ac (A2o ) | Eq: 50.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  852] SB  | 5c 2c (52s ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  853] CO  | Kd 4d (K4s ) | Eq: 49.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  854] BB  | Ks Kc (KK  ) | Eq: 84.4% | PO:32.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.8%
+[  855] BB  | 7d 3c (73o ) | Eq: 34.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  856] CO  | 8c 9h (98o ) | Eq: 50.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  857] SB  | 5s 2d (52o ) | Eq: 27.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  858] UTG | 3d 2c (32o ) | Eq: 28.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  859] BB  | 8c 3s (83o ) | Eq: 34.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  860] HJ  | 5s Qd (Q5o ) | Eq: 48.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  861] HJ  | Qc 7d (Q7o ) | Eq: 51.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  862] CO  | 3s Th (T3o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  863] HJ  | 8d 5h (85o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  864] CO  | 8s 4c (84o ) | Eq: 38.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  865] SB  | Ac Qs (AQo ) | Eq: 59.3% | PO:18.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  866] BB  | Ac Jd (AJo ) | Eq: 57.7% | PO:33.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.7%
+[  867] UTG | Kd 7d (K7s ) | Eq: 50.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  868] BB  | 2h 3d (32o ) | Eq: 30.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  869] SB  | 8c 5s (85o ) | Eq: 41.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  870] BB  | 2h 4c (42o ) | Eq: 26.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  871] CO  | 9d 6s (96o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  872] BB  | Qs Ts (QTs ) | Eq: 56.3% | PO:25.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.7%
+[  873] SB  | 8h 3h (83s ) | Eq: 38.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  874] BTN | Jd Jc (JJ  ) | Eq: 78.2% | PO:26.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.8%
+[  875] CO  | 3h 3d (33  ) | Eq: 54.2% | PO:32.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.9%
+[  876] BB  | 8s Ks (K8s ) | Eq: 51.7% | PO:33.4% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.9%
+[  877] UTG | Kc 9d (K9o ) | Eq: 49.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  878] UTG | 6s 5h (65o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  879] CO  | 2d Jd (J2s ) | Eq: 45.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  880] HJ  | 2d Qs (Q2o ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  881] CO  | Jd Tc (JTo ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  882] UTG | Qs 5d (Q5o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  883] BTN | Qs 3s (Q3s ) | Eq: 51.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  884] UTG | Kh Kd (KK  ) | Eq: 84.1% | PO:34.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.9%
+[  885] SB  | 6c Kc (K6s ) | Eq: 50.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  886] SB  | Jd Qd (QJs ) | Eq: 57.4% | PO:28.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  887] UTG | 8d 3c (83o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  888] HJ  | 8h 9d (98o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  889] UTG | 9s Jd (J9o ) | Eq: 52.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  890] CO  | 8h 6h (86s ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  891] BB  | 8d 2c (82o ) | Eq: 37.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  892] UTG | 8d 4h (84o ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  893] UTG | 6s As (A6s ) | Eq: 54.7% | PO:31.1% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.8%
+[  894] BB  | 8d 3h (83o ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  895] HJ  | 6c 9h (96o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  896] BTN | Qd Kh (KQo ) | Eq: 56.8% | PO:30.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  897] UTG | 2h 7d (72o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  898] BTN | 2c 6s (62o ) | Eq: 34.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  899] CO  | 9h Ac (A9o ) | Eq: 59.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  900] BTN | 2h Kh (K2s ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT @ 900 MANI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    900
+  VPIP medio:      22.8% ✅  (teorico: 21.4%)
+  Profit netto:    +132.5 BB
+  BB/100 mani:     +14.7
+  Azioni:  Raise: 175  |  Call: 30  |  Fold: 695
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[  901] BB  | Tc 6c (T6s ) | Eq: 45.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  902] UTG | Ts 9s (T9s ) | Eq: 53.2% | PO:29.8% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.8%
+[  903] UTG | Kd 4s (K4o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  904] SB  | 9c 9d (99  ) | Eq: 72.5% | PO:21.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.9%
+[  905] CO  | 5c 9d (95o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  906] CO  | Jh Ad (AJo ) | Eq: 58.0% | PO:18.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  907] BTN | 4h 8d (84o ) | Eq: 35.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  908] CO  | 8c Qc (Q8s ) | Eq: 53.0% | PO:32.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  909] CO  | 9s 8d (98o ) | Eq: 50.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  910] CO  | 4c Tc (T4s ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  911] CO  | 7c 8s (87o ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  912] SB  | 3c Ks (K3o ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  913] CO  | Ts Th (TT  ) | Eq: 73.9% | PO:24.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  914] HJ  | 4s 5c (54o ) | Eq: 33.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  915] BTN | Qs 5s (Q5s ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  916] BB  | 9s 6s (96s ) | Eq: 43.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  917] UTG | Js Jd (JJ  ) | Eq: 74.4% | PO:20.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  918] SB  | Kd 5s (K5o ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  919] BTN | Tc 4c (T4s ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  920] UTG | 8c 9s (98o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  921] CO  | Ts Jd (JTo ) | Eq: 56.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  922] BTN | 2c 2s (22  ) | Eq: 50.7% | PO:18.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 23.0%
+[  923] BTN | 4s Tc (T4o ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  924] UTG | 8h Th (T8s ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  925] UTG | 8d 6s (86o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  926] CO  | Ac Kc (AKs ) | Eq: 67.7% | PO:33.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 23.0%
+[  927] SB  | 6d Js (J6o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  928] BB  | 9c 5s (95o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  929] BTN | 8d 5s (85o ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  930] CO  | Kc 9c (K9s ) | Eq: 56.5% | PO:21.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 23.0%
+[  931] UTG | Jh 4h (J4s ) | Eq: 48.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  932] BB  | 5c 7c (75s ) | Eq: 45.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 23.0%
+[  933] BTN | Ad 3c (A3o ) | Eq: 55.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  934] BB  | Qh 9d (Q9o ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  935] UTG | Td Ac (ATo ) | Eq: 62.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  936] CO  | 6d 9c (96o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.9%
+[  937] HJ  | Ks Jh (KJo ) | Eq: 54.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  938] BB  | 7d 4h (74o ) | Eq: 35.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  939] CO  | 7h Ac (A7o ) | Eq: 60.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  940] UTG | Kd 9h (K9o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  941] SB  | 6c 3d (63o ) | Eq: 30.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  942] SB  | 3c Ac (A3s ) | Eq: 52.5% | PO:26.7% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.8%
+[  943] SB  | 5d 9c (95o ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  944] SB  | 9d 2c (92o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  945] UTG | Ks 8c (K8o ) | Eq: 54.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.8%
+[  946] SB  | 5d 9h (95o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  947] HJ  | 9d 2c (92o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  948] BTN | Kh 4s (K4o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  949] UTG | Jc 7d (J7o ) | Eq: 46.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.7%
+[  950] UTG | 6d 3d (63s ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  951] CO  | 9s 4c (94o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  952] BB  | 9h 6c (96o ) | Eq: 45.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  953] SB  | 7h Kh (K7s ) | Eq: 51.5% | PO:18.2% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.7%
+[  954] HJ  | 6h Jc (J6o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  955] HJ  | Kh Tc (KTo ) | Eq: 51.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  956] BTN | 9d 2s (92o ) | Eq: 34.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  957] SB  | 2h Qh (Q2s ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.6%
+[  958] CO  | Td 2h (T2o ) | Eq: 40.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  959] UTG | 6h Kd (K6o ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  960] CO  | Ks 6h (K6o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  961] CO  | 9s Jh (J9o ) | Eq: 50.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  962] BB  | 3c 8d (83o ) | Eq: 37.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  963] BB  | Kc Ah (AKo ) | Eq: 62.8% | PO:21.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.5%
+[  964] UTG | 5s Kd (K5o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  965] CO  | 5s 9c (95o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  966] SB  | 3d Ts (T3o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.5%
+[  967] SB  | 2s 6d (62o ) | Eq: 31.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  968] BTN | 3s Jh (J3o ) | Eq: 39.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  969] HJ  | 2c 8s (82o ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  970] SB  | 7h Qs (Q7o ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  971] SB  | Qs 2c (Q2o ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  972] CO  | Ts 7d (T7o ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  973] UTG | Tc 7h (T7o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  974] UTG | 5s Tc (T5o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  975] SB  | Jd Ac (AJo ) | Eq: 61.0% | PO:25.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.4%
+[  976] UTG | Th Jd (JTo ) | Eq: 55.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  977] UTG | 3d Ad (A3s ) | Eq: 51.9% | PO:23.6% | ▶ CALL  | P/L: -2.0BB | VPIP: 22.4%
+[  978] HJ  | Qh 9c (Q9o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  979] BB  | 9s Td (T9o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  980] BTN | 9d 6d (96s ) | Eq: 48.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  981] SB  | As 4h (A4o ) | Eq: 52.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  982] HJ  | 9h Ts (T9o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  983] BB  | Kd 9s (K9o ) | Eq: 49.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  984] HJ  | 6h Qh (Q6s ) | Eq: 52.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  985] UTG | Kd 8s (K8o ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  986] SB  | 2c Qc (Q2s ) | Eq: 48.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  987] HJ  | 9d 6h (96o ) | Eq: 40.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  988] HJ  | Jc Ad (AJo ) | Eq: 61.9% | PO:18.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.3%
+[  989] HJ  | Js 7c (J7o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  990] CO  | Qd 4h (Q4o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  991] UTG | Qc Ah (AQo ) | Eq: 66.0% | PO:31.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.3%
+[  992] BTN | Jc Tc (JTs ) | Eq: 57.5% | PO:26.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[  993] UTG | Th 8c (T8o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.4%
+[  994] BTN | 6h 8c (86o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  995] BTN | Js 4d (J4o ) | Eq: 43.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  996] BTN | 2h Td (T2o ) | Eq: 41.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  997] CO  | 8c 4h (84o ) | Eq: 36.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[  998] SB  | 6s Ac (A6o ) | Eq: 57.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[  999] HJ  | Th 4h (T4s ) | Eq: 41.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1000] BB  | Ad Jd (AJs ) | Eq: 64.9% | PO:18.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.3%
+[ 1001] BB  | 9c Qs (Q9o ) | Eq: 50.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[ 1002] UTG | Qh Kd (KQo ) | Eq: 61.3% | PO:31.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 22.4%
+[ 1003] BTN | 2s 8h (82o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[ 1004] BB  | Ad 7c (A7o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[ 1005] HJ  | 5d 2s (52o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[ 1006] BB  | Qh 8d (Q8o ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.3%
+[ 1007] BB  | 4d 9d (94s ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1008] CO  | Ah 3d (A3o ) | Eq: 55.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1009] HJ  | 5s 2s (52s ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1010] CO  | 7h 4h (74s ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1011] HJ  | 4c 6c (64s ) | Eq: 37.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1012] HJ  | 9s 2d (92o ) | Eq: 40.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1013] BB  | As Kd (AKo ) | Eq: 62.3% | PO:31.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.2%
+[ 1014] HJ  | 9d 6s (96o ) | Eq: 38.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1015] BTN | 6h 5h (65s ) | Eq: 40.8% | PO:21.3% | ▶ CALL  | P/L: +2.0BB | VPIP: 22.3%
+[ 1016] BB  | Th 8s (T8o ) | Eq: 43.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1017] SB  | 2s Ac (A2o ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1018] UTG | 4s 6s (64s ) | Eq: 40.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1019] HJ  | Tc Js (JTo ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1020] BB  | 3c 6c (63s ) | Eq: 37.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.2%
+[ 1021] HJ  | 3c 6d (63o ) | Eq: 30.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1022] BB  | 7c 6d (76o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1023] BB  | 5c 7s (75o ) | Eq: 35.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1024] HJ  | 8c 2c (82s ) | Eq: 41.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1025] CO  | 3d 6d (63s ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1026] UTG | 7d 7h (77  ) | Eq: 63.1% | PO:22.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 22.1%
+[ 1027] BB  | 4d Td (T4s ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1028] SB  | 5s Th (T5o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1029] HJ  | Td 7s (T7o ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.1%
+[ 1030] SB  | 5h Ad (A5o ) | Eq: 56.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1031] HJ  | Ts 9d (T9o ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1032] SB  | 2h Td (T2o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1033] SB  | Ac 3h (A3o ) | Eq: 49.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1034] SB  | As 3h (A3o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 22.0%
+[ 1035] UTG | 2d 6c (62o ) | Eq: 34.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[ 1036] CO  | Kd 9s (K9o ) | Eq: 55.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[ 1037] BTN | Ac 2h (A2o ) | Eq: 49.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[ 1038] SB  | Kc 5s (K5o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.9%
+[ 1039] UTG | 8h Js (J8o ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1040] BTN | 3s 8s (83s ) | Eq: 37.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1041] BB  | 4d Kc (K4o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1042] UTG | Jc 8s (J8o ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1043] BTN | Jd 3d (J3s ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1044] BTN | 5h Jc (J5o ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1045] HJ  | 3s 2h (32o ) | Eq: 28.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1046] BB  | 2h 8c (82o ) | Eq: 36.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1047] BB  | Ad 5d (A5s ) | Eq: 53.7% | PO:19.2% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.8%
+[ 1048] BB  | 8d 3s (83o ) | Eq: 40.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1049] BTN | 7c 8s (87o ) | Eq: 48.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1050] UTG | 7s 3c (73o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1051] BB  | 3s Kh (K3o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1052] HJ  | Ah 8d (A8o ) | Eq: 59.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1053] HJ  | Td Jd (JTs ) | Eq: 56.8% | PO:20.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1054] BTN | Td 3h (T3o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1055] UTG | 7s 5d (75o ) | Eq: 39.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1056] CO  | 3h 7c (73o ) | Eq: 33.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1057] BB  | Qh Ts (QTo ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1058] SB  | 7h Jh (J7s ) | Eq: 52.5% | PO:20.4% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.7%
+[ 1059] BTN | 3h Qc (Q3o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1060] BB  | 4s 2h (42o ) | Eq: 33.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1061] CO  | Jh Kd (KJo ) | Eq: 51.4% | PO:33.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.8%
+[ 1062] BTN | 5d Ah (A5o ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1063] BTN | 9s Jh (J9o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1064] HJ  | 3d Td (T3s ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1065] SB  | 2s 4h (42o ) | Eq: 29.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1066] UTG | Ah Ts (ATo ) | Eq: 61.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1067] BB  | 5s Ah (A5o ) | Eq: 56.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1068] BTN | 3c Tc (T3s ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1069] HJ  | Td 7h (T7o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1070] HJ  | 4h Qd (Q4o ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1071] UTG | 3h 5s (53o ) | Eq: 33.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1072] BB  | Kc 5h (K5o ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1073] SB  | Qh 3c (Q3o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1074] HJ  | 3c 4h (43o ) | Eq: 34.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1075] SB  | As 6d (A6o ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1076] BB  | 9s 6h (96o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1077] HJ  | Qs Qc (QQ  ) | Eq: 79.7% | PO:22.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1078] UTG | Ts Td (TT  ) | Eq: 70.2% | PO:27.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1079] SB  | As 6h (A6o ) | Eq: 52.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1080] CO  | 5h 7h (75s ) | Eq: 43.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1081] SB  | 5c 3h (53o ) | Eq: 31.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1082] SB  | 2h 8c (82o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1083] HJ  | 6c 4c (64s ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1084] BTN | 6h 7s (76o ) | Eq: 40.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1085] CO  | 8c Jc (J8s ) | Eq: 52.0% | PO:32.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1086] UTG | 9d Ks (K9o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1087] UTG | 9s 7h (97o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1088] BB  | 3c 2s (32o ) | Eq: 29.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1089] SB  | 7s Th (T7o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1090] BB  | Kd 7s (K7o ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1091] HJ  | 8s Ad (A8o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1092] BB  | Ad Qs (AQo ) | Eq: 62.8% | PO:23.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1093] BTN | 7s Jh (J7o ) | Eq: 50.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1094] SB  | 2h 6s (62o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1095] UTG | 9h 3c (93o ) | Eq: 41.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1096] CO  | 8d 3c (83o ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1097] HJ  | Th 9s (T9o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1098] HJ  | Kh 4d (K4o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1099] SB  | Tc 6h (T6o ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1100] SB  | 8d 7s (87o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1101] HJ  | 9d Th (T9o ) | Eq: 53.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1102] SB  | 8s 7h (87o ) | Eq: 45.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1103] BB  | 9c Js (J9o ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1104] SB  | Kd 9d (K9s ) | Eq: 58.0% | PO:30.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1105] BB  | Ts 9c (T9o ) | Eq: 52.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1106] CO  | Th 2d (T2o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1107] HJ  | Ac 7s (A7o ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1108] BB  | 9d 4d (94s ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1109] CO  | 7c 8s (87o ) | Eq: 43.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1110] BTN | 2h Kh (K2s ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1111] SB  | 9h Kh (K9s ) | Eq: 52.7% | PO:28.4% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.3%
+[ 1112] BTN | 4c Kh (K4o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1113] SB  | Th Ts (TT  ) | Eq: 72.2% | PO:31.1% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1114] CO  | Qd Ah (AQo ) | Eq: 66.0% | PO:29.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1115] HJ  | 4d 6d (64s ) | Eq: 35.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1116] UTG | 3c Th (T3o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1117] SB  | 3h Jh (J3s ) | Eq: 45.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1118] BB  | 2d 3s (32o ) | Eq: 32.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1119] SB  | 5h Jd (J5o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1120] UTG | 8h 8c (88  ) | Eq: 69.7% | PO:21.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1121] BTN | Qs 7c (Q7o ) | Eq: 46.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1122] CO  | Qd 6h (Q6o ) | Eq: 51.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1123] CO  | 3s 2d (32o ) | Eq: 29.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1124] CO  | 3s 5s (53s ) | Eq: 39.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1125] BB  | 5s Qc (Q5o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1126] BB  | Jd 5h (J5o ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1127] HJ  | 8s Tc (T8o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1128] HJ  | Kd 6d (K6s ) | Eq: 53.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1129] UTG | Jc 8d (J8o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1130] BB  | 6s 4s (64s ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1131] UTG | Ad Kh (AKo ) | Eq: 67.8% | PO:28.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1132] SB  | 9s 9d (99  ) | Eq: 70.5% | PO:21.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1133] HJ  | 7s 6c (76o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1134] BB  | 4d Ac (A4o ) | Eq: 51.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1135] BTN | 4h Jd (J4o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1136] BB  | As 4h (A4o ) | Eq: 51.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1137] UTG | 2d 3h (32o ) | Eq: 26.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1138] BB  | 8s 3d (83o ) | Eq: 38.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1139] HJ  | 5h 9s (95o ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1140] CO  | Ac 6h (A6o ) | Eq: 57.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1141] SB  | 2h Ts (T2o ) | Eq: 40.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1142] UTG | 8c 8d (88  ) | Eq: 67.8% | PO:27.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1143] HJ  | 8d 2h (82o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1144] BTN | 4c Kd (K4o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1145] BTN | 2h Qd (Q2o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1146] UTG | 4s 9c (94o ) | Eq: 39.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1147] BB  | 2s 6d (62o ) | Eq: 32.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1148] SB  | Qh 9h (Q9s ) | Eq: 50.2% | PO:28.4% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.3%
+[ 1149] SB  | 3h 3d (33  ) | Eq: 55.9% | PO:32.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.3%
+[ 1150] CO  | 9c 8c (98s ) | Eq: 51.5% | PO:22.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1151] BB  | 2h As (A2o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1152] BTN | Ks Kc (KK  ) | Eq: 80.0% | PO:30.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1153] UTG | 7h 9c (97o ) | Eq: 48.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1154] SB  | Jc Ac (AJs ) | Eq: 64.4% | PO:27.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1155] UTG | Js Td (JTo ) | Eq: 55.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1156] SB  | 7s Kh (K7o ) | Eq: 49.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1157] CO  | Ac Tc (ATs ) | Eq: 63.7% | PO:32.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1158] BTN | 4d Tc (T4o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1159] HJ  | 4s Ks (K4s ) | Eq: 54.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1160] SB  | Ac 6d (A6o ) | Eq: 58.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1161] HJ  | 7d 5s (75o ) | Eq: 40.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1162] HJ  | Qc Kh (KQo ) | Eq: 56.5% | PO:22.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1163] CO  | 5h 8c (85o ) | Eq: 37.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1164] BB  | 9h Qd (Q9o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1165] UTG | Ts 2s (T2s ) | Eq: 40.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1166] BTN | 6d Tc (T6o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1167] HJ  | 3h 4h (43s ) | Eq: 35.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1168] SB  | 6c Ah (A6o ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1169] CO  | 5c Kc (K5s ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1170] SB  | Td 5c (T5o ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1171] SB  | 8h 7d (87o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1172] BB  | 7s 5d (75o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1173] UTG | 4d Ac (A4o ) | Eq: 57.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1174] BTN | 3c Ac (A3s ) | Eq: 58.1% | PO:34.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1175] BTN | Jc Td (JTo ) | Eq: 49.0% | PO:27.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1176] SB  | 8c Qc (Q8s ) | Eq: 49.4% | PO:23.5% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.5%
+[ 1177] HJ  | 9d Tc (T9o ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1178] HJ  | 7s Kd (K7o ) | Eq: 53.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1179] UTG | 6h 4h (64s ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1180] CO  | Qd 3c (Q3o ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1181] CO  | Kd Ah (AKo ) | Eq: 68.2% | PO:34.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1182] HJ  | 7d Kd (K7s ) | Eq: 53.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1183] SB  | Td Ts (TT  ) | Eq: 74.5% | PO:33.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1184] SB  | 3s 6c (63o ) | Eq: 33.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1185] CO  | 6c 7h (76o ) | Eq: 41.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1186] BB  | 8s 7h (87o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1187] BTN | 6h 3h (63s ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1188] SB  | 7d Qs (Q7o ) | Eq: 49.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1189] SB  | 8d 2h (82o ) | Eq: 34.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1190] BTN | 2c Ac (A2s ) | Eq: 53.6% | PO:25.8% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1191] BB  | Jh 6h (J6s ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1192] BTN | Td 3d (T3s ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1193] BB  | 4h 3s (43o ) | Eq: 33.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1194] HJ  | 2h Kc (K2o ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1195] BTN | Js Th (JTo ) | Eq: 49.7% | PO:31.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1196] BB  | Kh Kc (KK  ) | Eq: 80.0% | PO:28.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1197] BTN | 5h 4s (54o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1198] UTG | 6s 2d (62o ) | Eq: 31.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1199] CO  | Qh 8s (Q8o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1200] UTG | 2d 8h (82o ) | Eq: 33.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT @ 1200 MANI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    1200
+  VPIP medio:      21.5% ✅  (teorico: 21.4%)
+  Profit netto:    +189.5 BB
+  BB/100 mani:     +15.8
+  Azioni:  Raise: 218  |  Call: 40  |  Fold: 942
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ 1201] SB  | 8d 5h (85o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1202] BB  | Kh Qc (KQo ) | Eq: 56.9% | PO:33.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1203] BTN | Qh 3c (Q3o ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1204] SB  | Qc 7s (Q7o ) | Eq: 49.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1205] SB  | 8h Kh (K8s ) | Eq: 54.0% | PO:24.9% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.6%
+[ 1206] BB  | 7s Ks (K7s ) | Eq: 50.2% | PO:27.8% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.6%
+[ 1207] UTG | 7d Ac (A7o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1208] SB  | 5d Kh (K5o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1209] HJ  | 4d Qs (Q4o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1210] HJ  | 7d Jh (J7o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1211] BB  | 6c Qs (Q6o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1212] BB  | 5h 7s (75o ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1213] HJ  | Jd Kh (KJo ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1214] SB  | 5s 4d (54o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1215] BTN | 7h Jd (J7o ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1216] BTN | 4s 4d (44  ) | Eq: 59.3% | PO:33.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1217] BB  | Jh Qc (QJo ) | Eq: 58.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1218] BTN | 8h 6d (86o ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1219] UTG | 8h 2h (82s ) | Eq: 40.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1220] CO  | 3h Tc (T3o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1221] HJ  | Td 2d (T2s ) | Eq: 41.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1222] UTG | Kh 7h (K7s ) | Eq: 51.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1223] BTN | Kd 4d (K4s ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1224] BTN | 8d 4h (84o ) | Eq: 36.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1225] CO  | 4c Kc (K4s ) | Eq: 53.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1226] HJ  | Ts 7h (T7o ) | Eq: 43.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1227] BB  | 8h Kh (K8s ) | Eq: 52.0% | PO:27.8% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.4%
+[ 1228] SB  | Jh Qs (QJo ) | Eq: 55.4% | PO:22.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1229] HJ  | 4s Qc (Q4o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1230] BB  | 4h 2d (42o ) | Eq: 26.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1231] BB  | 8h Kd (K8o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1232] SB  | 8h 5d (85o ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1233] SB  | 3d 3s (33  ) | Eq: 55.8% | PO:31.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1234] SB  | 5h Qs (Q5o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1235] BB  | Td 9h (T9o ) | Eq: 48.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1236] HJ  | 8s 5h (85o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1237] HJ  | Ah 6s (A6o ) | Eq: 56.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1238] SB  | 6d 3s (63o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1239] HJ  | Kc 8d (K8o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1240] CO  | Jh 4s (J4o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1241] BB  | Ad 5h (A5o ) | Eq: 56.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1242] SB  | 7h 9c (97o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1243] UTG | 8s Qc (Q8o ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1244] CO  | 4h 6c (64o ) | Eq: 35.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1245] CO  | 3c 5c (53s ) | Eq: 33.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1246] HJ  | 2h 8h (82s ) | Eq: 36.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1247] BB  | 9s Jh (J9o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1248] SB  | 4h 5c (54o ) | Eq: 32.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1249] CO  | Qd 5d (Q5s ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1250] HJ  | As Ks (AKs ) | Eq: 64.7% | PO:20.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.3%
+[ 1251] BTN | 8d Jc (J8o ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1252] UTG | Tc Th (TT  ) | Eq: 72.8% | PO:24.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.3%
+[ 1253] HJ  | 4s 5s (54s ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1254] BB  | Ah Td (ATo ) | Eq: 56.6% | PO:31.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1255] BTN | As 3d (A3o ) | Eq: 49.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1256] HJ  | Tc 2s (T2o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1257] BTN | 8d 8h (88  ) | Eq: 65.0% | PO:18.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1258] CO  | Tc Ah (ATo ) | Eq: 62.5% | PO:31.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1259] BB  | 8c 2s (82o ) | Eq: 34.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1260] UTG | Ah Ts (ATo ) | Eq: 62.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1261] BTN | 6s 8h (86o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1262] BB  | Kh Ks (KK  ) | Eq: 79.0% | PO:21.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1263] BTN | 8d Jd (J8s ) | Eq: 53.2% | PO:29.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1264] UTG | 2c Th (T2o ) | Eq: 39.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1265] HJ  | 6d Kh (K6o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1266] BB  | 8s 9d (98o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1267] CO  | 4h As (A4o ) | Eq: 49.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1268] BTN | 5d 7h (75o ) | Eq: 39.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1269] BTN | 8s Td (T8o ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1270] BB  | Ts Ah (ATo ) | Eq: 58.9% | PO:32.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1271] SB  | Kh 4s (K4o ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1272] BB  | 4d Qc (Q4o ) | Eq: 49.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1273] UTG | Th Qh (QTs ) | Eq: 58.7% | PO:20.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1274] BB  | 7c 7d (77  ) | Eq: 61.8% | PO:18.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1275] BB  | 7h Qd (Q7o ) | Eq: 49.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1276] SB  | Ts Ah (ATo ) | Eq: 58.6% | PO:25.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1277] CO  | Qh 4h (Q4s ) | Eq: 50.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1278] UTG | Jc 7s (J7o ) | Eq: 49.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1279] SB  | Th Tc (TT  ) | Eq: 74.8% | PO:30.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1280] UTG | 9h Kc (K9o ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1281] BTN | Tc 4d (T4o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1282] UTG | 5h Qc (Q5o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1283] BB  | Tc Qh (QTo ) | Eq: 55.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1284] CO  | Kd Ah (AKo ) | Eq: 67.4% | PO:23.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1285] CO  | 8d Ah (A8o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1286] CO  | 6c 3s (63o ) | Eq: 31.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1287] SB  | 7d Ad (A7s ) | Eq: 61.6% | PO:27.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1288] SB  | 2s 6d (62o ) | Eq: 35.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1289] BTN | 3c Ts (T3o ) | Eq: 37.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1290] UTG | 6h Ts (T6o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1291] HJ  | Jd 2h (J2o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1292] SB  | Qd 8c (Q8o ) | Eq: 51.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1293] BB  | 7h 6d (76o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1294] BB  | 6c Js (J6o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1295] BTN | 6s 7d (76o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1296] SB  | 4s Jh (J4o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1297] CO  | 5d Tc (T5o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1298] CO  | 8h 4d (84o ) | Eq: 39.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1299] HJ  | As 2d (A2o ) | Eq: 53.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1300] CO  | Td As (ATo ) | Eq: 60.8% | PO:34.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1301] BTN | 6s 3s (63s ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1302] BTN | Js 8s (J8s ) | Eq: 49.4% | PO:21.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1303] SB  | 9h Jd (J9o ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1304] BB  | 4s 9d (94o ) | Eq: 37.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1305] HJ  | 7d Ac (A7o ) | Eq: 57.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1306] UTG | 5h 3c (53o ) | Eq: 35.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1307] BTN | Ad 2h (A2o ) | Eq: 49.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1308] UTG | As Qd (AQo ) | Eq: 58.8% | PO:26.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1309] BB  | 8h Th (T8s ) | Eq: 46.6% | PO:31.5% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.6%
+[ 1310] CO  | Qd Kh (KQo ) | Eq: 59.1% | PO:18.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1311] HJ  | Qd Ts (QTo ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1312] CO  | 2h Kh (K2s ) | Eq: 49.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1313] CO  | 8s 5s (85s ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1314] BTN | Kc 8s (K8o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1315] HJ  | Th 7s (T7o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1316] BB  | 6s 2d (62o ) | Eq: 34.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1317] CO  | Kd 4c (K4o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1318] BB  | 3h 6s (63o ) | Eq: 35.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1319] BB  | 4d 9s (94o ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1320] BB  | 8h 6s (86o ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1321] SB  | Ac Jc (AJs ) | Eq: 63.5% | PO:30.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1322] BTN | 9d 3h (93o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1323] CO  | 8c Ks (K8o ) | Eq: 52.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1324] HJ  | 5d 6d (65s ) | Eq: 40.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1325] CO  | Jh 2s (J2o ) | Eq: 44.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1326] BB  | 3s 8d (83o ) | Eq: 33.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1327] CO  | Qs Ac (AQo ) | Eq: 64.9% | PO:26.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1328] UTG | Js Th (JTo ) | Eq: 55.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1329] CO  | 7c 7d (77  ) | Eq: 63.0% | PO:23.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1330] SB  | Jc 3s (J3o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1331] BB  | Qs 6h (Q6o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1332] HJ  | 2s 6c (62o ) | Eq: 32.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1333] HJ  | 2h Ts (T2o ) | Eq: 43.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1334] HJ  | 6h Td (T6o ) | Eq: 43.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1335] BB  | 7d 6s (76o ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1336] SB  | Jh Tc (JTo ) | Eq: 49.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1337] BTN | 3c Ad (A3o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1338] BTN | 3c 5h (53o ) | Eq: 31.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1339] SB  | Jc Qc (QJs ) | Eq: 60.8% | PO:27.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1340] SB  | 9c 9d (99  ) | Eq: 70.1% | PO:34.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1341] SB  | Js 6d (J6o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1342] BTN | 9d 4c (94o ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1343] HJ  | Qs Ad (AQo ) | Eq: 63.6% | PO:34.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1344] HJ  | 3h 8s (83o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1345] BTN | Js Ad (AJo ) | Eq: 63.9% | PO:19.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1346] UTG | 2c Ah (A2o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1347] UTG | Ts 7s (T7s ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1348] BTN | Ac 8c (A8s ) | Eq: 63.1% | PO:26.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1349] BB  | Js Jh (JJ  ) | Eq: 79.1% | PO:32.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1350] SB  | 4c 5c (54s ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1351] HJ  | 8c 7s (87o ) | Eq: 42.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1352] SB  | 5c 3s (53o ) | Eq: 32.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1353] BTN | 5d 8s (85o ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1354] BB  | 2d Td (T2s ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1355] SB  | Qh 6d (Q6o ) | Eq: 51.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1356] BB  | 6d 7c (76o ) | Eq: 44.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1357] UTG | Jc Kc (KJs ) | Eq: 57.9% | PO:34.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1358] HJ  | 5h 9d (95o ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1359] BTN | 9h 7c (97o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1360] HJ  | 8d 9s (98o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1361] CO  | 2h 7c (72o ) | Eq: 34.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1362] BB  | Jd Jc (JJ  ) | Eq: 77.4% | PO:30.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1363] BTN | 3c 3s (33  ) | Eq: 53.8% | PO:32.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1364] CO  | Ah 4c (A4o ) | Eq: 52.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1365] CO  | 5s 7d (75o ) | Eq: 37.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1366] SB  | 2c Js (J2o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1367] CO  | 3h 9d (93o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1368] BB  | 2h Qc (Q2o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1369] SB  | Qc Kc (KQs ) | Eq: 60.1% | PO:26.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.7%
+[ 1370] HJ  | 4s 6h (64o ) | Eq: 39.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1371] SB  | Jd 9h (J9o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1372] HJ  | 2d Js (J2o ) | Eq: 40.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1373] BTN | 3d 3s (33  ) | Eq: 54.4% | PO:19.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1374] SB  | 8h Jc (J8o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1375] BB  | 7h 3d (73o ) | Eq: 35.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1376] HJ  | Ad Qc (AQo ) | Eq: 65.5% | PO:30.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1377] SB  | Ks 4h (K4o ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1378] BB  | Tc Qs (QTo ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1379] HJ  | 7d 6s (76o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1380] CO  | 4h Jh (J4s ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1381] BTN | 5c 7s (75o ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1382] BB  | 8h 6h (86s ) | Eq: 44.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1383] BTN | Td 9c (T9o ) | Eq: 49.7% | PO:22.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1384] BB  | 9h 9c (99  ) | Eq: 74.0% | PO:30.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1385] HJ  | 9s 4h (94o ) | Eq: 42.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1386] SB  | Kc 8d (K8o ) | Eq: 55.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1387] UTG | 2d Td (T2s ) | Eq: 45.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1388] BTN | 5s Tc (T5o ) | Eq: 40.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1389] BB  | Js 2h (J2o ) | Eq: 38.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1390] SB  | 7s 3d (73o ) | Eq: 37.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1391] BB  | 6h Ad (A6o ) | Eq: 55.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1392] HJ  | 8c Ts (T8o ) | Eq: 50.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1393] BTN | 7d 8h (87o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1394] SB  | Ah 5d (A5o ) | Eq: 57.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1395] SB  | 9c 9h (99  ) | Eq: 73.5% | PO:19.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.6%
+[ 1396] CO  | Th 2s (T2o ) | Eq: 36.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1397] UTG | 7s 9h (97o ) | Eq: 40.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1398] SB  | 4h Jd (J4o ) | Eq: 41.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1399] UTG | Th 9h (T9s ) | Eq: 55.4% | PO:19.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1400] CO  | Jh Kh (KJs ) | Eq: 60.3% | PO:26.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1401] BB  | Qd 4h (Q4o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1402] BTN | Qc Kc (KQs ) | Eq: 64.9% | PO:19.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.8%
+[ 1403] CO  | 4h 4c (44  ) | Eq: 55.1% | PO:28.5% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.8%
+[ 1404] HJ  | Kh 3d (K3o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1405] SB  | 5c Jd (J5o ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1406] UTG | 9h Jh (J9s ) | Eq: 53.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.8%
+[ 1407] BB  | 6c 5d (65o ) | Eq: 35.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1408] BTN | 2s 8s (82s ) | Eq: 36.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1409] CO  | Js 6d (J6o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1410] CO  | Kc 9d (K9o ) | Eq: 56.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1411] BTN | Qc 3c (Q3s ) | Eq: 48.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1412] HJ  | 6s Qd (Q6o ) | Eq: 51.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1413] HJ  | 2h Ks (K2o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1414] BTN | Td 8s (T8o ) | Eq: 44.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1415] UTG | 3h Ks (K3o ) | Eq: 48.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1416] SB  | 5s Tc (T5o ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1417] SB  | 9d 9s (99  ) | Eq: 73.7% | PO:29.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.7%
+[ 1418] BTN | 7h Th (T7s ) | Eq: 46.2% | PO:25.5% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.7%
+[ 1419] HJ  | 5c Jc (J5s ) | Eq: 47.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1420] HJ  | As 7d (A7o ) | Eq: 56.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1421] HJ  | 4s 9d (94o ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1422] UTG | 9s 4c (94o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.7%
+[ 1423] UTG | Th 8c (T8o ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1424] BB  | 5d Qd (Q5s ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1425] BTN | As 4h (A4o ) | Eq: 55.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1426] CO  | 7s 9d (97o ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1427] SB  | 8h 5s (85o ) | Eq: 37.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1428] UTG | 2d 3d (32s ) | Eq: 35.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1429] HJ  | Kc 6c (K6s ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1430] UTG | 3d 6c (63o ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1431] HJ  | 4h 4s (44  ) | Eq: 57.7% | PO:30.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.6%
+[ 1432] HJ  | 8s Th (T8o ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1433] BB  | Ac 5s (A5o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.6%
+[ 1434] BTN | 6c Kd (K6o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1435] UTG | 4d Ts (T4o ) | Eq: 43.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1436] UTG | Ks 7s (K7s ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1437] CO  | 2h Th (T2s ) | Eq: 44.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1438] SB  | 7h 8c (87o ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1439] HJ  | 3h 4s (43o ) | Eq: 34.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1440] SB  | 6s 8c (86o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1441] HJ  | 6d 8c (86o ) | Eq: 41.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1442] UTG | 9d 5c (95o ) | Eq: 39.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1443] HJ  | 8h Qc (Q8o ) | Eq: 48.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1444] BTN | 9d As (A9o ) | Eq: 56.2% | PO:31.6% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1445] BB  | 4h 9d (94o ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1446] UTG | 2d 5s (52o ) | Eq: 27.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1447] SB  | 8s Ac (A8o ) | Eq: 59.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1448] UTG | 7c 9d (97o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1449] BB  | 2s 4d (42o ) | Eq: 28.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1450] UTG | Qh 4h (Q4s ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1451] BTN | Qc 7s (Q7o ) | Eq: 50.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1452] UTG | Jc 5c (J5s ) | Eq: 51.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1453] HJ  | Ah 3h (A3s ) | Eq: 58.1% | PO:30.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1454] BB  | Kc 8c (K8s ) | Eq: 50.9% | PO:26.8% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.5%
+[ 1455] BB  | Th 8c (T8o ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1456] BTN | Qh 8h (Q8s ) | Eq: 51.5% | PO:21.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1457] CO  | 6h 5s (65o ) | Eq: 36.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1458] SB  | 6s 4d (64o ) | Eq: 37.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1459] BTN | As 3h (A3o ) | Eq: 51.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1460] CO  | 8d 5c (85o ) | Eq: 39.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1461] UTG | 6c Js (J6o ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1462] CO  | 7h 9s (97o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1463] BTN | 8d 9d (98s ) | Eq: 52.9% | PO:18.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1464] SB  | 4h 6h (64s ) | Eq: 37.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1465] SB  | 7h 9d (97o ) | Eq: 47.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1466] SB  | 9h Kd (K9o ) | Eq: 49.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1467] HJ  | Ac 9s (A9o ) | Eq: 56.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1468] CO  | 2s Jd (J2o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1469] SB  | 2h Qc (Q2o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1470] CO  | 5d Kd (K5s ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1471] UTG | 6h 9h (96s ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1472] HJ  | 7d 4s (74o ) | Eq: 33.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1473] UTG | 6c 5c (65s ) | Eq: 40.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1474] UTG | 7c Jd (J7o ) | Eq: 50.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1475] UTG | 2s Jd (J2o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1476] UTG | 3h Qh (Q3s ) | Eq: 47.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1477] CO  | 4h 3d (43o ) | Eq: 31.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1478] SB  | Kc 3d (K3o ) | Eq: 49.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1479] UTG | Kd 8h (K8o ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1480] BTN | 8d 5h (85o ) | Eq: 38.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1481] UTG | Td Js (JTo ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1482] HJ  | Qs 3d (Q3o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1483] SB  | Ac 9d (A9o ) | Eq: 57.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1484] SB  | 3s Tc (T3o ) | Eq: 42.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1485] HJ  | 6d Js (J6o ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1486] HJ  | 5h 3h (53s ) | Eq: 32.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1487] BTN | 9h 3d (93o ) | Eq: 42.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1488] HJ  | Qs 9h (Q9o ) | Eq: 54.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1489] BB  | Qh Kc (KQo ) | Eq: 57.6% | PO:24.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1490] BTN | 4h 6s (64o ) | Eq: 36.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1491] SB  | 2h 9s (92o ) | Eq: 39.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1492] CO  | Th 7d (T7o ) | Eq: 46.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1493] SB  | 3d 7d (73s ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1494] UTG | Qh 4d (Q4o ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1495] HJ  | Kc 8h (K8o ) | Eq: 48.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1496] BTN | Qh 5h (Q5s ) | Eq: 52.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1497] BB  | Kd 7h (K7o ) | Eq: 52.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1498] BTN | 8s Jd (J8o ) | Eq: 44.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1499] BB  | Qd 5c (Q5o ) | Eq: 45.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1500] SB  | 9s 7h (97o ) | Eq: 43.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT @ 1500 MANI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    1500
+  VPIP medio:      21.0% ✅  (teorico: 21.4%)
+  Profit netto:    +222.5 BB
+  BB/100 mani:     +14.8
+  Azioni:  Raise: 269  |  Call: 46  |  Fold: 1185
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ 1501] HJ  | As Js (AJs ) | Eq: 59.4% | PO:21.0% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.1%
+[ 1502] BTN | 6h 2s (62o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1503] CO  | 8c 4c (84s ) | Eq: 38.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1504] CO  | Jc 7s (J7o ) | Eq: 42.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1505] SB  | 9c Qh (Q9o ) | Eq: 53.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1506] SB  | Ks Ts (KTs ) | Eq: 59.8% | PO:34.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.0%
+[ 1507] SB  | Js 9c (J9o ) | Eq: 53.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1508] SB  | 8h 5h (85s ) | Eq: 46.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1509] UTG | Qh Ah (AQs ) | Eq: 64.7% | PO:19.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.1%
+[ 1510] UTG | 8s Qh (Q8o ) | Eq: 48.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1511] BB  | 6h Jd (J6o ) | Eq: 42.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1512] BTN | 3s Kh (K3o ) | Eq: 49.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1513] CO  | 8s Qd (Q8o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1514] HJ  | Jd 4s (J4o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1515] UTG | 9d Kd (K9s ) | Eq: 57.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.0%
+[ 1516] CO  | Qd Kh (KQo ) | Eq: 59.0% | PO:29.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.0%
+[ 1517] CO  | Ad 2d (A2s ) | Eq: 57.4% | PO:34.9% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.1%
+[ 1518] HJ  | 8s 6s (86s ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1519] SB  | 8d Kd (K8s ) | Eq: 52.6% | PO:25.0% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.1%
+[ 1520] SB  | Qc 3d (Q3o ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1521] CO  | 3d Qd (Q3s ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1522] SB  | 3d 5d (53s ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1523] CO  | Tc Ad (ATo ) | Eq: 61.7% | PO:20.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.1%
+[ 1524] BTN | Ks Kh (KK  ) | Eq: 83.8% | PO:23.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1525] SB  | Kh 8d (K8o ) | Eq: 50.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1526] HJ  | 7s Ts (T7s ) | Eq: 51.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1527] SB  | Ts Jd (JTo ) | Eq: 55.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1528] UTG | Th 4s (T4o ) | Eq: 42.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1529] SB  | Jd Jh (JJ  ) | Eq: 75.0% | PO:25.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1530] HJ  | Ad 4c (A4o ) | Eq: 51.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1531] CO  | 3c 3s (33  ) | Eq: 51.9% | PO:18.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1532] UTG | Kh Ad (AKo ) | Eq: 67.4% | PO:19.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1533] CO  | 4d 6h (64o ) | Eq: 33.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1534] SB  | Kd 7c (K7o ) | Eq: 50.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1535] SB  | Ah 5c (A5o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1536] BTN | 3d Ac (A3o ) | Eq: 56.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1537] BB  | Tc 5s (T5o ) | Eq: 45.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1538] CO  | Th Jc (JTo ) | Eq: 52.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1539] CO  | Jh Qh (QJs ) | Eq: 55.2% | PO:27.0% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1540] CO  | 4c 4s (44  ) | Eq: 58.7% | PO:27.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.3%
+[ 1541] SB  | 6s Ks (K6s ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1542] SB  | Qc 3d (Q3o ) | Eq: 46.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1543] SB  | Ks 3c (K3o ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1544] CO  | 7s 4h (74o ) | Eq: 33.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1545] CO  | Td 9h (T9o ) | Eq: 51.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1546] UTG | 8s 2d (82o ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1547] BTN | 3h Kc (K3o ) | Eq: 48.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1548] CO  | 4h Js (J4o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1549] HJ  | Ad Jd (AJs ) | Eq: 62.7% | PO:26.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1550] BTN | Td Ts (TT  ) | Eq: 74.7% | PO:33.7% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1551] CO  | Qc 3s (Q3o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1552] CO  | 2s Ah (A2o ) | Eq: 47.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1553] HJ  | 4d Jd (J4s ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1554] HJ  | Jh 2c (J2o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1555] SB  | Jd 6h (J6o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1556] HJ  | Ad 7h (A7o ) | Eq: 54.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1557] BB  | 9c 5c (95s ) | Eq: 43.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1558] BTN | 2d 7c (72o ) | Eq: 36.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1559] HJ  | 5c 5d (55  ) | Eq: 58.6% | PO:30.9% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1560] SB  | 9c Qh (Q9o ) | Eq: 48.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1561] UTG | 8c Jd (J8o ) | Eq: 50.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1562] SB  | Jh As (AJo ) | Eq: 57.5% | PO:28.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.3%
+[ 1563] UTG | Jh 2h (J2s ) | Eq: 48.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1564] CO  | 7h 9d (97o ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1565] CO  | 7s 3s (73s ) | Eq: 37.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1566] HJ  | Qs 2h (Q2o ) | Eq: 40.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1567] HJ  | 2d Kh (K2o ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1568] BTN | Jd Th (JTo ) | Eq: 52.5% | PO:30.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1569] HJ  | Ac 5c (A5s ) | Eq: 58.8% | PO:28.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1570] SB  | Ks 6h (K6o ) | Eq: 47.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1571] BB  | 2h 3c (32o ) | Eq: 29.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1572] CO  | Ah Qs (AQo ) | Eq: 66.1% | PO:34.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1573] HJ  | 9c 7c (97s ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1574] HJ  | Kc Qh (KQo ) | Eq: 55.0% | PO:24.6% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.3%
+[ 1575] UTG | 4s Ad (A4o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1576] UTG | 5d Tc (T5o ) | Eq: 41.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1577] HJ  | 9h Qd (Q9o ) | Eq: 48.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1578] HJ  | 6s 8c (86o ) | Eq: 41.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1579] SB  | Qc Qd (QQ  ) | Eq: 80.0% | PO:18.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1580] SB  | 2h 4h (42s ) | Eq: 30.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1581] UTG | 8c 6h (86o ) | Eq: 44.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1582] CO  | Kc 7h (K7o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1583] SB  | 4c Ac (A4s ) | Eq: 53.1% | PO:28.5% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.4%
+[ 1584] BTN | Ks Td (KTo ) | Eq: 53.6% | PO:19.8% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1585] BB  | Td 5h (T5o ) | Eq: 45.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1586] HJ  | 4c 6h (64o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1587] CO  | 3c 5d (53o ) | Eq: 36.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1588] CO  | 6s Kc (K6o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1589] BTN | Qh 8c (Q8o ) | Eq: 49.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1590] CO  | 6d Ts (T6o ) | Eq: 40.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1591] SB  | 4s Qh (Q4o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1592] UTG | Ac Jh (AJo ) | Eq: 60.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1593] SB  | Qh 7h (Q7s ) | Eq: 54.7% | PO:28.6% | ▶ CALL  | P/L: +2.0BB | VPIP: 21.3%
+[ 1594] HJ  | Td 6c (T6o ) | Eq: 44.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1595] CO  | 7c Qd (Q7o ) | Eq: 47.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1596] BB  | 9s 4c (94o ) | Eq: 37.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1597] UTG | Tc 8h (T8o ) | Eq: 44.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1598] SB  | Ah Kc (AKo ) | Eq: 67.2% | PO:34.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.3%
+[ 1599] CO  | 4h Kc (K4o ) | Eq: 46.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1600] BTN | 9c 5d (95o ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1601] HJ  | 5c As (A5o ) | Eq: 51.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1602] BTN | Jh 6h (J6s ) | Eq: 46.5% | PO:28.5% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.3%
+[ 1603] BB  | 8h Qc (Q8o ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1604] BTN | Ks 9s (K9s ) | Eq: 58.6% | PO:23.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1605] SB  | 9d 9s (99  ) | Eq: 69.8% | PO:19.3% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1606] BTN | Td 2d (T2s ) | Eq: 46.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1607] CO  | 6h Ts (T6o ) | Eq: 47.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1608] SB  | Kh 3s (K3o ) | Eq: 48.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1609] BTN | 2c Qd (Q2o ) | Eq: 46.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1610] BB  | Jd 6h (J6o ) | Eq: 46.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1611] UTG | 3s 4h (43o ) | Eq: 34.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1612] CO  | Qs 9d (Q9o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1613] CO  | 9d Jh (J9o ) | Eq: 52.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1614] SB  | Th 3d (T3o ) | Eq: 42.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1615] UTG | Ad 3s (A3o ) | Eq: 49.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1616] SB  | 4s As (A4s ) | Eq: 54.5% | PO:24.1% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.3%
+[ 1617] BTN | Ah 7s (A7o ) | Eq: 57.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1618] BB  | 4h 7d (74o ) | Eq: 40.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1619] UTG | Ts Td (TT  ) | Eq: 76.8% | PO:29.4% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1620] SB  | 7s As (A7s ) | Eq: 56.6% | PO:31.7% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.4%
+[ 1621] BB  | 2s Kc (K2o ) | Eq: 49.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1622] BTN | 4d Js (J4o ) | Eq: 40.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1623] BTN | 7c 8h (87o ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1624] BTN | 7d 6s (76o ) | Eq: 38.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1625] BB  | Qc Th (QTo ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1626] UTG | 4s Jh (J4o ) | Eq: 41.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1627] HJ  | 4s 8c (84o ) | Eq: 36.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1628] UTG | Th 7c (T7o ) | Eq: 42.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1629] HJ  | Ad Jh (AJo ) | Eq: 61.4% | PO:30.6% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1630] UTG | Js As (AJs ) | Eq: 61.4% | PO:29.5% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.4%
+[ 1631] CO  | 8s Ts (T8s ) | Eq: 46.1% | PO:29.1% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.5%
+[ 1632] HJ  | Jh Kc (KJo ) | Eq: 59.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1633] UTG | Ks Qs (KQs ) | Eq: 60.0% | PO:29.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1634] UTG | 9h 4c (94o ) | Eq: 38.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1635] HJ  | 4h 2s (42o ) | Eq: 32.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1636] SB  | 4s 6s (64s ) | Eq: 36.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1637] SB  | 4c 6h (64o ) | Eq: 35.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1638] SB  | Ah 4s (A4o ) | Eq: 51.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1639] SB  | Qs Ks (KQs ) | Eq: 57.8% | PO:21.2% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.5%
+[ 1640] BTN | Kh 3s (K3o ) | Eq: 42.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1641] BB  | Ad Tc (ATo ) | Eq: 61.9% | PO:28.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.5%
+[ 1642] BB  | 2s 2h (22  ) | Eq: 47.1% | PO:18.6% | ▶ CALL  | P/L: -2.0BB | VPIP: 21.6%
+[ 1643] UTG | 5c 8s (85o ) | Eq: 38.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1644] BB  | 8s Ad (A8o ) | Eq: 53.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1645] SB  | Jd 3d (J3s ) | Eq: 45.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1646] BB  | 6d Jc (J6o ) | Eq: 48.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1647] BTN | Ts 2c (T2o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1648] UTG | 6d Ac (A6o ) | Eq: 54.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1649] BTN | 8d Kc (K8o ) | Eq: 54.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1650] BB  | Kc 7h (K7o ) | Eq: 47.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.5%
+[ 1651] CO  | 6c Th (T6o ) | Eq: 43.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1652] BTN | 5d 9h (95o ) | Eq: 38.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1653] UTG | 5h 8s (85o ) | Eq: 37.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1654] BB  | 5c 2h (52o ) | Eq: 30.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1655] UTG | 8s 4c (84o ) | Eq: 36.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1656] HJ  | 4c 5d (54o ) | Eq: 34.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1657] BTN | 5h Jh (J5s ) | Eq: 45.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1658] SB  | 8s 2d (82o ) | Eq: 33.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.4%
+[ 1659] CO  | 5s 2h (52o ) | Eq: 27.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1660] BB  | Qh 3h (Q3s ) | Eq: 45.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1661] HJ  | 4s Jh (J4o ) | Eq: 47.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1662] SB  | 3h Ts (T3o ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1663] CO  | 2d 2c (22  ) | Eq: 50.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1664] BB  | 6d 7h (76o ) | Eq: 39.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1665] UTG | 8c 4s (84o ) | Eq: 41.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.3%
+[ 1666] CO  | 4d 2s (42o ) | Eq: 26.8% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1667] CO  | 4c 9d (94o ) | Eq: 39.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1668] HJ  | Jd 6s (J6o ) | Eq: 45.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1669] SB  | 3s Qh (Q3o ) | Eq: 42.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1670] BB  | 8s Th (T8o ) | Eq: 44.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1671] BTN | Jd 3h (J3o ) | Eq: 40.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1672] SB  | Td 3c (T3o ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1673] HJ  | 8s 7h (87o ) | Eq: 44.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1674] BB  | Td 5s (T5o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1675] SB  | As Kd (AKo ) | Eq: 61.4% | PO:33.3% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1676] BB  | 3s 6s (63s ) | Eq: 35.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1677] CO  | Jd 4d (J4s ) | Eq: 49.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1678] CO  | 7d 7c (77  ) | Eq: 65.8% | PO:19.2% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.2%
+[ 1679] HJ  | 8c Th (T8o ) | Eq: 48.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1680] BB  | 7c Td (T7o ) | Eq: 42.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1681] CO  | Kc Js (KJo ) | Eq: 58.8% | PO:22.1% | ▶ RAISE | P/L: +3.5BB | VPIP: 21.2%
+[ 1682] HJ  | 7h 3c (73o ) | Eq: 39.2% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1683] CO  | 2c 9c (92s ) | Eq: 43.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1684] BB  | 6s Qh (Q6o ) | Eq: 45.0% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1685] BB  | 3s 9c (93o ) | Eq: 36.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1686] UTG | 4s Ks (K4s ) | Eq: 51.5% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1687] HJ  | 3h 4c (43o ) | Eq: 29.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1688] BTN | 3h Th (T3s ) | Eq: 43.6% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1689] BTN | Qs Ts (QTs ) | Eq: 55.3% | PO:24.4% | ▶ RAISE | P/L: -3.0BB | VPIP: 21.2%
+[ 1690] BB  | 6h 2s (62o ) | Eq: 29.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1691] SB  | 5c 2d (52o ) | Eq: 34.4% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1692] BTN | 3s Jh (J3o ) | Eq: 39.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.2%
+[ 1693] SB  | 3h 4d (43o ) | Eq: 31.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1694] SB  | 9d 3s (93o ) | Eq: 42.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1695] CO  | Tc 3s (T3o ) | Eq: 38.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1696] UTG | 4c 8s (84o ) | Eq: 36.3% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1697] HJ  | 9c 2c (92s ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1698] BTN | Qh 2s (Q2o ) | Eq: 42.7% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1699] UTG | Qd 3c (Q3o ) | Eq: 41.1% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+[ 1700] UTG | 4h Kd (K4o ) | Eq: 50.9% |   ---   | ▶ FOLD  |  0.0BB | VPIP: 21.1%
+
+🛑 Shutdown ricevuto – chiusura pulita...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 REPORT FINALE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mani giocate:    1700
+  VPIP medio:      21.1% ✅  (teorico: 21.4%)
+  Profit netto:    +269.5 BB
+  BB/100 mani:     +15.9
+  Azioni:  Raise: 304  |  Call: 54  |  Fold: 1342
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
