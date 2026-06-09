@@ -1,0 +1,77 @@
+═══════════════════════════════════════════════════════════════════
+ XANDER BOT v2.7 – SESSIONE LIVE INFINITA
+ Data: 2026-06-09 | PID: 68038 | Durata: ~17 min
+ Shutdown: SIGTERM (pulito)
+═══════════════════════════════════════════════════════════════════
+
+CONFIGURAZIONE
+  Modo:            INFINITO
+  VPIP teorico:    21.4%
+  Target VPIP:     18-24%
+  Delay:           0.6s
+  SimMode:         0
+  Tavoli:          1
+  Errori:          0
+
+═══════════════════════════════════════════════════════════════════
+ REPORT PROGRESSIVI
+═══════════════════════════════════════════════════════════════════
+
+  @ 300 mani
+    VPIP:    25.3%       Profit: +66.0 BB    BB/100: +22.0
+    Raise: 62  |  Call: 14  |  Fold: 224
+
+  @ 600 mani
+    VPIP:    22.0%  ✅   Profit: +107.5 BB   BB/100: +17.9
+    Raise: 114  |  Call: 18  |  Fold: 468
+
+  @ 900 mani
+    VPIP:    22.8%  ✅   Profit: +132.5 BB   BB/100: +14.7
+    Raise: 175  |  Call: 30  |  Fold: 695
+
+  @ 1200 mani
+    VPIP:    21.5%  ✅   Profit: +189.5 BB   BB/100: +15.8
+    Raise: 218  |  Call: 40  |  Fold: 942
+
+  @ 1500 mani
+    VPIP:    21.0%  ✅   Profit: +222.5 BB   BB/100: +14.8
+    Raise: 269  |  Call: 46  |  Fold: 1185
+
+═══════════════════════════════════════════════════════════════════
+ REPORT FINALE @ 1700 MANI
+═══════════════════════════════════════════════════════════════════
+
+  Mani giocate:    1700
+  VPIP medio:      21.1%  ✅
+  Profit netto:    +269.5 BB
+  BB/100 mani:     +15.9
+  Raise:           304 (17.9%)
+  Call:            54  (3.2%)
+  Fold:            1342 (78.9%)
+  Rapporto R/C:    5.6:1
+
+═══════════════════════════════════════════════════════════════════
+ ANALISI TREND
+═══════════════════════════════════════════════════════════════════
+
+  VPIP convergenza:  25.3% → 22.0% → 22.8% → 21.5% → 21.0% → 21.1%
+  Profit per blocco 300 mani:
+    0-300:    +66.0 BB
+    300-600:  +41.5 BB
+    600-900:  +25.0 BB
+    900-1200: +57.0 BB
+    1200-1500: +33.0 BB
+    1500-1700: +47.0 BB (200 mani)
+
+  Profit medio per 300 mani: ~+44.9 BB
+  Nessun drawdown in nessun blocco
+
+═══════════════════════════════════════════════════════════════════
+ CONCLUSIONI
+═══════════════════════════════════════════════════════════════════
+
+  ✅ VPIP 21.1% — centro perfetto del target 18-24%
+  ✅ Profit +269.5 BB su 1700 mani — costantemente positivo
+  ✅ BB/100 +15.9 — winrate eccellente e stabile
+  ✅ Zero errori, zero anomalie, shutdown pulito
+  ✅ Nessun aggiustamento necessario ai range
