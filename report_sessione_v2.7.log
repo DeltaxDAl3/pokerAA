@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════════
+ XANDER BOT v2.7 – REPORT SESSIONE INFINITA
+ Data: 2026-06-09 | PID: 67276 | Durata: ~10 min
+═══════════════════════════════════════════════════════════════════
+
+CONFIGURAZIONE
+  Modo:            INFINITO (terminato @ 1000 mani)
+  VPIP teorico:    21.3%
+  Target VPIP:     18-24%
+  Delay:           0.6s
+  SimMode:         0
+  Tavoli:          1
+
+ANALISI LOG
+  Righe totali:    1047
+  Errori:          0
+  Warning:         0
+  Anomalie:        NESSUNA
+
+═══════════════════════════════════════════════════════════════════
+ REPORT PROGRESSIVI
+═══════════════════════════════════════════════════════════════════
+
+  @ 300 mani
+    VPIP:       22.7%  ✅
+    Profit:     +40.5 BB
+    BB/100:     +13.5
+    Raise: 59  |  Call: 9  |  Fold: 232
+
+  @ 600 mani
+    VPIP:       22.5%  ✅
+    Profit:     +85.0 BB
+    BB/100:     +14.2
+    Raise: 119  |  Call: 16  |  Fold: 465
+
+  @ 900 mani
+    VPIP:       21.3%  ✅
+    Profit:     +83.5 BB
+    BB/100:     +9.3
+    Raise: 168  |  Call: 24  |  Fold: 708
+
+═══════════════════════════════════════════════════════════════════
+ REPORT FINALE @ 1000 MANI
+═══════════════════════════════════════════════════════════════════
+
+  Mani giocate:    1000
+  VPIP medio:      21.7%  ✅
+  Profit netto:    +121.0 BB
+  BB/100 mani:     +12.1
+  Raise:           185 (18.5%)
+  Call:            32  (3.2%)
+  Fold:            783 (78.3%)
+  Rapporto R/C:    5.8:1
+
+═══════════════════════════════════════════════════════════════════
+ CONCLUSIONI
+═══════════════════════════════════════════════════════════════════
+
+  ✅ VPIP stabile 21-23% in tutti i checkpoint (target 18-24%)
+  ✅ Convergenza perfetta al teorico (21.3%) @ 900 mani
+  ✅ Profitto costantemente positivo (+121.0 BB su 1000 mani)
+  ✅ BB/100 = +12.1 (winrate eccellente)
+  ✅ Zero errori, zero anomalie nel log
+  ✅ Shutdown pulito via SIGTERM

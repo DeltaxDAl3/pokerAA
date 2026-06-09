@@ -17,10 +17,11 @@ import signal
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CONFIG (da environment variables)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MAX_CYCLES = int(os.getenv("MAX_CYCLES", 50))
+MAX_CYCLES = int(os.getenv("MAX_CYCLES", 50))     # 0 = infinito
 SIM_MODE   = int(os.getenv("FALLBACK_SIM_MODE", 1))
 MAX_TABLES = int(os.getenv("MAX_TABLES", 1))
-DELAY      = 0.8
+DELAY      = float(os.getenv("LOOP_DELAY_SECONDS", 0.8))
+REPORT_EVERY = 300
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CARTE E COSTANTI
@@ -234,18 +235,44 @@ def calibrate(n=50_000):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # MAIN LOOP
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-def main():
-    theo_vpip = calibrate(50_000)
-
-    print(f"🚀 XANDER BOT v2.5 – GTO RANGE ENGINE")
-    print(f"   Cicli: {MAX_CYCLES} | SimMode: {SIM_MODE} | Tavoli: {MAX_TABLES}")
-    print(f"   VPIP teorico: {theo_vpip:.1f}% | Target: 18-24% | Delay: {DELAY}s")
+def print_report(label, theo_vpip):
+    """Stampa report con stats correnti."""
+    t = stats["hands"]
+    if t == 0:
+        return
+    vpip_f = stats["vpip"] / t * 100
+    ok = "✅" if 18 <= vpip_f <= 24 else "⚠️"
+    bb100 = stats["profit_bb"] / t * 100 if t else 0
+    print()
+    print("━" * 72)
+    print(f"📊 {label}")
+    print("━" * 72)
+    print(f"  Mani giocate:    {t}")
+    print(f"  VPIP medio:      {vpip_f:.1f}% {ok}  (teorico: {theo_vpip:.1f}%)")
+    print(f"  Profit netto:    {stats['profit_bb']:+.1f} BB")
+    print(f"  BB/100 mani:     {bb100:+.1f}")
+    print(f"  Azioni:  Raise: {stats['raise']}  |  Call: {stats['call']}  |  Fold: {stats['fold']}")
     print("━" * 72)
 
-    for cycle in range(1, MAX_CYCLES + 1):
+
+def main():
+    theo_vpip = calibrate(50_000)
+    mode = "INFINITO" if MAX_CYCLES == 0 else f"{MAX_CYCLES} cicli"
+
+    print(f"🚀 XANDER BOT v2.7 – GTO RANGE ENGINE")
+    print(f"   Modo: {mode} | SimMode: {SIM_MODE} | Tavoli: {MAX_TABLES}")
+    print(f"   VPIP teorico: {theo_vpip:.1f}% | Target: 18-24% | Delay: {DELAY}s")
+    print(f"   Report ogni {REPORT_EVERY} mani")
+    print("━" * 72)
+
+    cycle = 0
+    while True:
         if shutdown_flag:
             break
+        if MAX_CYCLES > 0 and cycle >= MAX_CYCLES:
+            break
 
+        cycle += 1
         cards, hi, lo, pair, suited, gap = deal()
         pos = random.choice(POS)
         name = hand_name(hi, lo, pair, suited)
@@ -270,36 +297,25 @@ def main():
 
         if playable:
             print(
-                f"[{cycle:3d}] {pos:3s} | {fmt_cards(cards)} ({name:4s}) | "
+                f"[{cycle:5d}] {pos:3s} | {fmt_cards(cards)} ({name:4s}) | "
                 f"Eq:{equity:5.1f}% | PO:{pot_odds:4.1f}% | "
                 f"▶ {action.upper():5s} | P/L:{pl:+5.1f}BB | VPIP:{vpip_pct:5.1f}%"
             )
         else:
             print(
-                f"[{cycle:3d}] {pos:3s} | {fmt_cards(cards)} ({name:4s}) | "
+                f"[{cycle:5d}] {pos:3s} | {fmt_cards(cards)} ({name:4s}) | "
                 f"Eq:{equity:5.1f}% |   ---   | "
                 f"▶ FOLD  |  0.0BB | VPIP:{vpip_pct:5.1f}%"
             )
 
+        # Report periodico ogni REPORT_EVERY mani
+        if stats["hands"] % REPORT_EVERY == 0:
+            print_report(f"REPORT @ {stats['hands']} MANI", theo_vpip)
+
         time.sleep(DELAY)
 
     # ━━ REPORT FINALE ━━
-    t = stats["hands"]
-    vpip_f = stats["vpip"] / t * 100 if t else 0
-    ok = "✅" if 18 <= vpip_f <= 24 else "⚠️"
-    total_actions = stats["raise"] + stats["call"] + stats["fold"]
-
-    print()
-    print("━" * 72)
-    print("📊 REPORT FINALE")
-    print("━" * 72)
-    print(f"  Mani giocate:    {t}")
-    print(f"  VPIP finale:     {vpip_f:.1f}% {ok}  (teorico: {theo_vpip:.1f}%)")
-    print(f"  Profit/Loss:     {stats['profit_bb']:+.1f} BB")
-    print(f"  Azioni totali:   {total_actions}")
-    print(f"    Raise: {stats['raise']:3d}  |  Call: {stats['call']:3d}  |  Fold: {stats['fold']:3d}")
-    print(f"  Mani VPIP:       {stats['vpip']} / {t}")
-    print("━" * 72)
+    print_report("REPORT FINALE", theo_vpip)
 
 
 if __name__ == "__main__":
